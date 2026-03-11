@@ -1,0 +1,41 @@
+[
+  {
+    "EntityProfileSettingId": "64529616-b99b-415f-94bf-5ddbd1e3c360",
+    "AddRelationship": true,
+    "CloneHierarchy": true,
+    "CreateEntityGroup": true,
+    "DeleteEntity": null,
+    "DeleteRelationship": true,
+    "EditEntityGroup": true,
+    "EditRelationship": true,
+    "FunctionalProfileSettingId": "70d20584-3252-4b5b-a6ed-26756db666b7",
+    "HierarchyPaneNavigation": true,
+    "ManageBatchEdit": true,
+    "ManageEntitySearch": true,
+    "RemoveEntityGroup": true,
+    "ReplaceRelationship": true,
+    "SelectEntityToLinkToReplace": true,
+    "ViewEntityCard": true,
+    "ViewEntityGroup": true,
+    "ViewRelationship": true,
+    "Inapplicable_": [
+      "DeleteEntity"
+    ],
+    "WFId_": "00000000-0000-0000-0000-000000000000",
+    "TaskId_": "00000000-0000-0000-0000-000000000000",
+    "VersionId_": 1,
+    "BaseVersionId_": 0,
+    "IsLatestVersion_": true,
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "CreatedBy_": "admin",
+    "CreatedDate_": "2026-01-08T02:05:31.059013Z",
+    "UpdatedBy_": null,
+    "UpdatedDate_": null,
+    "t_": "EntityProfileSetting",
+    "ContextUserId_": "admin",
+    "IsValid_": true,
+    "IsVisible_": true,
+    "SnapshotId_": 0
+  }
+]

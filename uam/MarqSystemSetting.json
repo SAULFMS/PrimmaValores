@@ -1,0 +1,29 @@
+[
+  {
+    "MarqSystemSettingId": "641929f4-bf1c-4981-a816-4b8c73161a5d",
+    "BusinessPortfolio": "",
+    "CreditPortfolio": "",
+    "FinagraphLenderId": "",
+    "MarqApiBaseUrl": "",
+    "SearchSinceDate": "2020-06-30T00:00:00Z",
+    "SystemSettingId": "14700269-cb8b-462e-ae1d-16816ffa19f7",
+    "MarqDefaultDisplayRounding": 0,
+    "Inapplicable_": [],
+    "WFId_": "00000000-0000-0000-0000-000000000000",
+    "TaskId_": "00000000-0000-0000-0000-000000000000",
+    "VersionId_": 1,
+    "BaseVersionId_": 0,
+    "IsLatestVersion_": true,
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "CreatedBy_": "admin",
+    "CreatedDate_": "2026-01-08T02:05:31.059013Z",
+    "UpdatedBy_": "admin",
+    "UpdatedDate_": "2026-03-02T03:13:55.59349Z",
+    "t_": "MarqSystemSetting",
+    "ContextUserId_": "admin",
+    "IsValid_": true,
+    "IsVisible_": true,
+    "SnapshotId_": 0
+  }
+]

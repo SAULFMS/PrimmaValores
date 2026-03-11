@@ -1,0 +1,40 @@
+[
+  {
+    "EntitySystemSettingId": "ed00b101-2a1b-4b13-8f38-086c78640381",
+    "AnonymizeAfterDays": 7,
+    "AutoLockEntities": null,
+    "EnableAdvanceSearch": true,
+    "EnableMoodysEntityDataSearch": true,
+    "EntityHierarchyLimit": 200,
+    "FirmId": null,
+    "MaxIndustryCode": null,
+    "NoUniquenessFailureOverride": null,
+    "OrbisApiToken": "",
+    "OrbisApiUrl": "https://api.models.moodysanalytics.com/entity/v1",
+    "SystemSettingId": "14700269-cb8b-462e-ae1d-16816ffa19f7",
+    "NgtApiUrl": null,
+    "Inapplicable_": [
+      "AutoLockEntities",
+      "FirmId",
+      "MaxIndustryCode",
+      "NoUniquenessFailureOverride",
+      "NgtApiUrl"
+    ],
+    "WFId_": "00000000-0000-0000-0000-000000000000",
+    "TaskId_": "00000000-0000-0000-0000-000000000000",
+    "VersionId_": 1,
+    "BaseVersionId_": 0,
+    "IsLatestVersion_": true,
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "CreatedBy_": "admin",
+    "CreatedDate_": "2026-01-08T02:05:31.059013Z",
+    "UpdatedBy_": "admin",
+    "UpdatedDate_": "2026-03-02T03:13:55.59349Z",
+    "t_": "EntitySystemSetting",
+    "ContextUserId_": "admin",
+    "IsValid_": true,
+    "IsVisible_": true,
+    "SnapshotId_": 0
+  }
+]
