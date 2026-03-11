@@ -1,0 +1,42 @@
+[
+  {
+    "CpSystemSettingId": "d0122f86-6b86-45e6-a249-8a2f355529e2",
+    "CreDocumentCategory": "1.5",
+    "CreditMemoDocumentCategory": null,
+    "DocumentCategory": "1.1",
+    "SystemSettingId": "14700269-cb8b-462e-ae1d-16816ffa19f7",
+    "CreditMemoEmails": null,
+    "EnableReportViewer": null,
+    "UseAnnualStatementOnly": true,
+    "NumberOfFinancialStatements": 5,
+    "BatchModelUrl": "https://api.cap.moodysanalytics.com/modelregistry/v1/batch-runs/models/MA CreditMemo Model",
+    "BatchRunStatusUrl": "https://api.cap.moodysanalytics.com/modelregistry/v1/batch-runs/<runId>",
+    "BatchRunResponseUrl": "https://api.cap.moodysanalytics.com/modelregistry/v1/batch-runs/<runId>/output-files?noredirect=true",
+    "UseOpenAiData": true,
+    "UseClientOrbisToken": null,
+    "NumberOfPeerEntities": 5,
+    "BatchRunTimeout": 120,
+    "Inapplicable_": [
+      "CreditMemoDocumentCategory",
+      "CreditMemoEmails",
+      "EnableReportViewer",
+      "UseClientOrbisToken"
+    ],
+    "WFId_": "00000000-0000-0000-0000-000000000000",
+    "TaskId_": "00000000-0000-0000-0000-000000000000",
+    "VersionId_": 1,
+    "BaseVersionId_": 0,
+    "IsLatestVersion_": true,
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "CreatedBy_": "admin",
+    "CreatedDate_": "2026-01-08T02:05:31.059013Z",
+    "UpdatedBy_": null,
+    "UpdatedDate_": null,
+    "t_": "CpSystemSetting",
+    "ContextUserId_": "admin",
+    "IsValid_": true,
+    "IsVisible_": true,
+    "SnapshotId_": 0
+  }
+]

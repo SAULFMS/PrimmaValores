@@ -1,0 +1,51 @@
+[
+  {
+    "AdminProfileSettingId": "dd4e4bf1-067f-4c05-a570-e84ba4e9030e",
+    "AdminAccess": true,
+    "AdminSelectAll": true,
+    "CreateEditFunctionalAccess": true,
+    "CreateEditModelAccess": true,
+    "DataFileUpload": true,
+    "DeactivateCreateEditUser": true,
+    "ExclusiveRecordAccess": null,
+    "FunctionalProfileSettingId": "70d20584-3252-4b5b-a6ed-26756db666b7",
+    "JobLogs": true,
+    "PasswordSecurity": true,
+    "RestrictedRecordAccess": null,
+    "SchedulerPanel": true,
+    "SearchViewUser": null,
+    "SecurityState": true,
+    "Settings": true,
+    "UserAccessManagement": true,
+    "UserManagement": true,
+    "ViewSensitiveData": true,
+    "ManageWebhooks": null,
+    "Inapplicable_": [
+      "ExclusiveRecordAccess",
+      "RestrictedRecordAccess",
+      "SearchViewUser",
+      "ManageWebhooks"
+    ],
+    "Associations_": [
+      "AdminFaProfileSetting",
+      "AdminRgProfileSetting",
+      "AdminCreProfileSetting"
+    ],
+    "WFId_": "00000000-0000-0000-0000-000000000000",
+    "TaskId_": "00000000-0000-0000-0000-000000000000",
+    "VersionId_": 1,
+    "BaseVersionId_": 0,
+    "IsLatestVersion_": true,
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "CreatedBy_": "admin",
+    "CreatedDate_": "2026-01-08T02:05:31.059013Z",
+    "UpdatedBy_": null,
+    "UpdatedDate_": null,
+    "t_": "AdminProfileSetting",
+    "ContextUserId_": "admin",
+    "IsValid_": true,
+    "IsVisible_": true,
+    "SnapshotId_": 0
+  }
+]

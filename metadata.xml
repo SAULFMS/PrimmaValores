@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <module id="Tenant" description="Default Tenant" tenantId="Tenant" major="1" minor="0" patch="1">
+    <loadAfter moduleRefId="Core" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="RiskOrigins" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="Entity" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="FinancialAnalysis" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="Map" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="RiskGrading" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="DataMovement" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="MapPdModels" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="DealStructuring" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="DealStructuringAdvanced" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="GlobalCashFlow" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="CommercialRealEstate" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="MapLgdModels" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="Global" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="MapLgdModelsAdvanced" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="CommercialRealEstatePdRatings" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="Covenant" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="BiStarSchema" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="Reis" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="RiskReturn" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="Workflow" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="Apac" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="Benchmark" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="BusinessInsights" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="Bvd" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="ClimateEsgScorePredictor" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="CommercialRealEstateLgdModels" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="ConfigConsole" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="CreditPresentation" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="EdfX" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="EuropeAfrica" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="FirbAnalysis" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="LicenseMeta" major="25" minor="31" patch="0" />
+    <loadAfter moduleRefId="Marq" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="MiddleEast" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="OfflineDataAnalysis" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="Raroc" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="RiskCalcLgd" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="Salesforce" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="SpreadingAutomation" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="TermSheet" major="26" minor="11" patch="0" />
+    <loadAfter moduleRefId="MoodysFinal" major="1" minor="0" patch="0" />
+    <probePath path="Config\metadata\Tenant\ra" />
+  </module>
+  <models>
+    <model id="Rules" source="custom_rules" versionEnable="true" dataProvider="postgres" modelCategory="system" resourceModuleId="Core" standardConfig="true">
+      <audit time="2016-09-14T19:07:51.630172Z" />
+    </model>
+    <model id="RuleExecution" source="custom_rule_execution" dataProvider="postgres" modelCategory="system" resourceModuleId="Core" standardConfig="true">
+      <audit time="2016-09-14T19:07:52.9692616Z" />
+    </model>
+    <model id="Report" source="custom_report" versionEnable="true" dataProvider="postgres" modelCategory="system" resourceModuleId="Core" root="true" standardConfig="true">
+      <audit time="2017-11-24T19:07:51.630172Z" />
+    </model>
+    <model id="Connector" source="custom_connector" versionEnable="true" dataProvider="postgres" modelCategory="system" resourceModuleId="Core" root="true" standardConfig="true">
+      <audit time="2020-10-08T20:07:51.630172Z" />
+    </model>
+    <model id="Widget" source="custom_widget" versionEnable="true" dataProvider="postgres" modelCategory="system" resourceModuleId="Core" root="true" standardConfig="true">
+      <audit time="2020-10-08T20:07:52.630172Z" />
+    </model>
+  </models>
+</metadata>
