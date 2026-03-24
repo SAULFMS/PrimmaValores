@@ -1,0 +1,42 @@
+[
+  {
+    "Type": "USERROLE",
+    "KeyInt": 1015308014,
+    "Key": "ADM",
+    "Value": "Administrator",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "UserRole"
+  },
+  {
+    "Type": "USERROLE",
+    "KeyInt": 1685131764,
+    "Key": "CS",
+    "Value": "Credit Supervisor",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "UserRole"
+  },
+  {
+    "Type": "USERROLE",
+    "KeyInt": 1412908266,
+    "Key": "SA",
+    "Value": "Super Administrator",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "UserRole"
+  },
+  {
+    "Type": "USERROLE",
+    "KeyInt": 1103732068,
+    "Key": "TR",
+    "Value": "Testing Role VL",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "UserRole"
+  }
+]
