@@ -1,0 +1,186 @@
+[
+  {
+    "PolicyId": "838492b9-7ba0-4432-8e4c-648b904e890a",
+    "PolicyCategoryId": "b5436f9c-0213-444b-8ae0-51f93e7dfce1",
+    "FunctionalProfile": "d0aab568-99bb-4197-8f19-c73102bfe389",
+    "PolicyDescription": null,
+    "Inapplicable_": [],
+    "Associations_": [
+      "UserDimension"
+    ],
+    "UserDimension": [
+      {
+        "DimensionId": "UserRole",
+        "DimensionValue": "CA",
+        "Operator": null,
+        "Inapplicable_": []
+      },
+      {
+        "DimensionId": "BusinessPortfolio",
+        "DimensionValue": "ANY",
+        "Operator": null,
+        "Inapplicable_": []
+      },
+      {
+        "DimensionId": "CreditPortfolio",
+        "DimensionValue": "ANY",
+        "Operator": null,
+        "Inapplicable_": []
+      }
+    ],
+    "WFId_": "00000000-0000-0000-0000-000000000000",
+    "TaskId_": "00000000-0000-0000-0000-000000000000",
+    "VersionId_": 1,
+    "BaseVersionId_": 0,
+    "IsLatestVersion_": true,
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "CreatedBy_": "admin",
+    "CreatedDate_": "2026-03-23T20:29:29.898826Z",
+    "UpdatedBy_": null,
+    "UpdatedDate_": null,
+    "t_": "FunctionalPolicy",
+    "ContextUserId_": "admin",
+    "IsValid_": true,
+    "IsVisible_": true,
+    "SnapshotId_": 0
+  },
+  {
+    "PolicyId": "3fbb1022-a980-49ff-a7b2-c73e0aa9d490",
+    "PolicyCategoryId": "b5436f9c-0213-444b-8ae0-51f93e7dfce1",
+    "FunctionalProfile": "44bb8b42-332b-4754-bd0f-f3b7eed6430f",
+    "PolicyDescription": null,
+    "Inapplicable_": [],
+    "Associations_": [
+      "UserDimension"
+    ],
+    "UserDimension": [
+      {
+        "DimensionId": "UserRole",
+        "DimensionValue": "CS",
+        "Operator": null,
+        "Inapplicable_": []
+      },
+      {
+        "DimensionId": "BusinessPortfolio",
+        "DimensionValue": "ANY",
+        "Operator": null,
+        "Inapplicable_": []
+      },
+      {
+        "DimensionId": "CreditPortfolio",
+        "DimensionValue": "ANY",
+        "Operator": null,
+        "Inapplicable_": []
+      }
+    ],
+    "WFId_": "00000000-0000-0000-0000-000000000000",
+    "TaskId_": "00000000-0000-0000-0000-000000000000",
+    "VersionId_": 1,
+    "BaseVersionId_": 0,
+    "IsLatestVersion_": true,
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "CreatedBy_": "admin",
+    "CreatedDate_": "2026-03-23T20:29:29.918644Z",
+    "UpdatedBy_": null,
+    "UpdatedDate_": null,
+    "t_": "FunctionalPolicy",
+    "ContextUserId_": "admin",
+    "IsValid_": true,
+    "IsVisible_": true,
+    "SnapshotId_": 0
+  },
+  {
+    "PolicyId": "75b7d3cd-5490-40df-9e18-6b43f7e80d40",
+    "PolicyCategoryId": "b5436f9c-0213-444b-8ae0-51f93e7dfce1",
+    "FunctionalProfile": "c9dfb02d-7e86-469d-b85e-44e13c2c094c",
+    "PolicyDescription": null,
+    "Inapplicable_": [],
+    "Associations_": [
+      "UserDimension"
+    ],
+    "UserDimension": [
+      {
+        "DimensionId": "UserRole",
+        "DimensionValue": "RM",
+        "Operator": null,
+        "Inapplicable_": []
+      },
+      {
+        "DimensionId": "BusinessPortfolio",
+        "DimensionValue": "ANY",
+        "Operator": null,
+        "Inapplicable_": []
+      },
+      {
+        "DimensionId": "CreditPortfolio",
+        "DimensionValue": "ANY",
+        "Operator": null,
+        "Inapplicable_": []
+      }
+    ],
+    "WFId_": "00000000-0000-0000-0000-000000000000",
+    "TaskId_": "00000000-0000-0000-0000-000000000000",
+    "VersionId_": 1,
+    "BaseVersionId_": 0,
+    "IsLatestVersion_": true,
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "CreatedBy_": "admin",
+    "CreatedDate_": "2026-03-23T20:47:03.309834Z",
+    "UpdatedBy_": null,
+    "UpdatedDate_": null,
+    "t_": "FunctionalPolicy",
+    "ContextUserId_": "admin",
+    "IsValid_": true,
+    "IsVisible_": true,
+    "SnapshotId_": 0
+  },
+  {
+    "PolicyId": "64e5fc52-a9ea-48c7-a4ad-37d54fd76540",
+    "PolicyCategoryId": "b5436f9c-0213-444b-8ae0-51f93e7dfce1",
+    "FunctionalProfile": "0cd928e8-590f-4c89-844e-0c384c0baf4f",
+    "PolicyDescription": null,
+    "Inapplicable_": [],
+    "Associations_": [
+      "UserDimension"
+    ],
+    "UserDimension": [
+      {
+        "DimensionId": "UserRole",
+        "DimensionValue": "ADM",
+        "Operator": null,
+        "Inapplicable_": []
+      },
+      {
+        "DimensionId": "BusinessPortfolio",
+        "DimensionValue": "ANY",
+        "Operator": null,
+        "Inapplicable_": []
+      },
+      {
+        "DimensionId": "CreditPortfolio",
+        "DimensionValue": "ANY",
+        "Operator": null,
+        "Inapplicable_": []
+      }
+    ],
+    "WFId_": "00000000-0000-0000-0000-000000000000",
+    "TaskId_": "00000000-0000-0000-0000-000000000000",
+    "VersionId_": 1,
+    "BaseVersionId_": 0,
+    "IsLatestVersion_": true,
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "CreatedBy_": "admin",
+    "CreatedDate_": "2026-03-23T20:47:32.460637Z",
+    "UpdatedBy_": null,
+    "UpdatedDate_": null,
+    "t_": "FunctionalPolicy",
+    "ContextUserId_": "admin",
+    "IsValid_": true,
+    "IsVisible_": true,
+    "SnapshotId_": 0
+  }
+]

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metadata xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <module id="Tenant" description="Default Tenant" tenantId="Tenant" major="1" minor="0" patch="1">
+  <module id="Tenant" description="Default Tenant" tenantId="Tenant" major="1" minor="0" patch="2">
     <loadAfter moduleRefId="Core" major="26" minor="11" patch="0" />
     <loadAfter moduleRefId="RiskOrigins" major="26" minor="11" patch="0" />
     <loadAfter moduleRefId="Entity" major="26" minor="11" patch="0" />
@@ -61,5 +61,13 @@
     <model id="Widget" source="custom_widget" versionEnable="true" dataProvider="postgres" modelCategory="system" resourceModuleId="Core" root="true" standardConfig="true">
       <audit time="2020-10-08T20:07:52.630172Z" />
     </model>
+    <model id="UserRole" source="custom_lookup" dataProvider="postgres" modelCategory="ref" resourceModuleId="Core" standardConfig="true">
+      <audit userId="admin" time="2016-09-22T07:39:52.0141859Z" />
+    </model>
   </models>
+  <references>
+    <ref id="UserRole" modelRefId="UserRole" type="USERROLE" resourceModuleId="Core">
+      <audit userId="admin" time="20260316T150630" />
+    </ref>
+  </references>
 </metadata>

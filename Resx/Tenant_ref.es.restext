@@ -1,0 +1,4 @@
+Core.UserRole.ADM.Value=Administrador
+Core.UserRole.CA.Value=Analista de crédito
+Core.UserRole.CS.Value=Supervisor de crédito
+Core.UserRole.SA.Value=Super Administrador
