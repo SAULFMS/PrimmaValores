@@ -1,0 +1,172 @@
+[
+  {
+    "Type": "CTMDGIICLASSIFICATION",
+    "KeyInt": 372029405,
+    "Key": "A",
+    "Value": "A - Agriculture, Livestock, Hunting and Forestry",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmDgiiClassification"
+  },
+  {
+    "Type": "CTMDGIICLASSIFICATION",
+    "KeyInt": 372029408,
+    "Key": "B",
+    "Value": "B - Fishing and Related Services",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmDgiiClassification"
+  },
+  {
+    "Type": "CTMDGIICLASSIFICATION",
+    "KeyInt": 372029407,
+    "Key": "C",
+    "Value": "C - Mining and Quarrying",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmDgiiClassification"
+  },
+  {
+    "Type": "CTMDGIICLASSIFICATION",
+    "KeyInt": 372029402,
+    "Key": "D",
+    "Value": "D - Manufacturing Industry",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmDgiiClassification"
+  },
+  {
+    "Type": "CTMDGIICLASSIFICATION",
+    "KeyInt": 372029401,
+    "Key": "E",
+    "Value": "E - Electricity, Gas and Water",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmDgiiClassification"
+  },
+  {
+    "Type": "CTMDGIICLASSIFICATION",
+    "KeyInt": 372029404,
+    "Key": "F",
+    "Value": "F - Construction",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmDgiiClassification"
+  },
+  {
+    "Type": "CTMDGIICLASSIFICATION",
+    "KeyInt": 372029403,
+    "Key": "G",
+    "Value": "G - Wholesale and Retail Trade; Repair of Motor Vehicles, Motorcycles, Personal and Household Goods",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmDgiiClassification"
+  },
+  {
+    "Type": "CTMDGIICLASSIFICATION",
+    "KeyInt": 372029414,
+    "Key": "H",
+    "Value": "H - Hotels and Restaurants Services",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmDgiiClassification"
+  },
+  {
+    "Type": "CTMDGIICLASSIFICATION",
+    "KeyInt": 372029413,
+    "Key": "I",
+    "Value": "I - Transport, Storage and Communications Services",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmDgiiClassification"
+  },
+  {
+    "Type": "CTMDGIICLASSIFICATION",
+    "KeyInt": 372029416,
+    "Key": "J",
+    "Value": "J - Financial Intermediation and Other Financial Services",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmDgiiClassification"
+  },
+  {
+    "Type": "CTMDGIICLASSIFICATION",
+    "KeyInt": 372029415,
+    "Key": "K",
+    "Value": "K - Real Estate, Business and Rental Services",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmDgiiClassification"
+  },
+  {
+    "Type": "CTMDGIICLASSIFICATION",
+    "KeyInt": 372029410,
+    "Key": "L",
+    "Value": "L - Public Administration, Defense and Compulsory Social Security",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmDgiiClassification"
+  },
+  {
+    "Type": "CTMDGIICLASSIFICATION",
+    "KeyInt": 372029409,
+    "Key": "M",
+    "Value": "M - Education",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmDgiiClassification"
+  },
+  {
+    "Type": "CTMDGIICLASSIFICATION",
+    "KeyInt": 372029412,
+    "Key": "N",
+    "Value": "N - Health and Social Services",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmDgiiClassification"
+  },
+  {
+    "Type": "CTMDGIICLASSIFICATION",
+    "KeyInt": 372029411,
+    "Key": "O",
+    "Value": "O - Community, Social and Personal Services n.e.c.",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmDgiiClassification"
+  },
+  {
+    "Type": "CTMDGIICLASSIFICATION",
+    "KeyInt": 372029422,
+    "Key": "P",
+    "Value": "P - Private Households with Employed Domestic Staff",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmDgiiClassification"
+  },
+  {
+    "Type": "CTMDGIICLASSIFICATION",
+    "KeyInt": 372029421,
+    "Key": "Q",
+    "Value": "Q - Extraterritorial Organizations and Bodies",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CtmDgiiClassification"
+  }
+]

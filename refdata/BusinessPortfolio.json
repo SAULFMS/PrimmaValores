@@ -1,0 +1,154 @@
+[
+  {
+    "Type": "BUSINESSPORTFOLIO",
+    "HierarchyKeyInt": 1184127815,
+    "Key": "1.",
+    "Value": "Origination",
+    "HierarchyKey": "2.|1.",
+    "LevelId": "Region",
+    "Parent": "2.",
+    "Ancestors": [
+      "2."
+    ],
+    "Inapplicable_": [],
+    "IsDeleted_": true,
+    "StatusId_": 1,
+    "t_": "BusinessPortfolio"
+  },
+  {
+    "Type": "BUSINESSPORTFOLIO",
+    "HierarchyKeyInt": 1617874539,
+    "Key": "1.",
+    "Value": "Origination",
+    "HierarchyKey": "1.",
+    "LevelId": "BusinessUnit",
+    "Parent": null,
+    "Ancestors": null,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "BusinessPortfolio"
+  },
+  {
+    "Type": "BUSINESSPORTFOLIO",
+    "HierarchyKeyInt": 1530128701,
+    "Key": "1.1",
+    "Value": "Bond Issuance",
+    "HierarchyKey": "1.|1.1",
+    "LevelId": "Region",
+    "Parent": "1.",
+    "Ancestors": [
+      "1."
+    ],
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "BusinessPortfolio"
+  },
+  {
+    "Type": "BUSINESSPORTFOLIO",
+    "HierarchyKeyInt": 1126844174,
+    "Key": "1.2",
+    "Value": "Referral to Third Parties (Funds, external banks, etc.)",
+    "HierarchyKey": "1.|1.2",
+    "LevelId": "Region",
+    "Parent": "1.",
+    "Ancestors": [
+      "1."
+    ],
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "BusinessPortfolio"
+  },
+  {
+    "Type": "BUSINESSPORTFOLIO",
+    "HierarchyKeyInt": 977720451,
+    "Key": "2",
+    "Value": "Propietario",
+    "HierarchyKey": "CB|2",
+    "LevelId": "Region",
+    "Parent": "CB",
+    "Ancestors": [
+      "CB"
+    ],
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "BusinessPortfolio"
+  },
+  {
+    "Type": "BUSINESSPORTFOLIO",
+    "HierarchyKeyInt": 1617874542,
+    "Key": "2.",
+    "Value": "Owner",
+    "HierarchyKey": "2.",
+    "LevelId": "BusinessUnit",
+    "Parent": null,
+    "Ancestors": null,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "BusinessPortfolio"
+  },
+  {
+    "Type": "BUSINESSPORTFOLIO",
+    "HierarchyKeyInt": 1106638125,
+    "Key": "2.1",
+    "Value": "Own Position PV",
+    "HierarchyKey": "2.|2.1",
+    "LevelId": "Region",
+    "Parent": "2.",
+    "Ancestors": [
+      "2."
+    ],
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "BusinessPortfolio"
+  },
+  {
+    "Type": "BUSINESSPORTFOLIO",
+    "HierarchyKeyInt": 1509922652,
+    "Key": "2.2",
+    "Value": "Special Vehicles/Structures",
+    "HierarchyKey": "2.|2.2",
+    "LevelId": "Region",
+    "Parent": "2.",
+    "Ancestors": [
+      "2."
+    ],
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "BusinessPortfolio"
+  },
+  {
+    "Type": "BUSINESSPORTFOLIO",
+    "HierarchyKeyInt": 1309194205,
+    "Key": "CB",
+    "Value": "Commercial Banking",
+    "HierarchyKey": "CB",
+    "LevelId": "BusinessUnit",
+    "Parent": null,
+    "Ancestors": null,
+    "Inapplicable_": [],
+    "IsDeleted_": true,
+    "StatusId_": 1,
+    "t_": "BusinessPortfolio"
+  },
+  {
+    "Type": "BUSINESSPORTFOLIO",
+    "HierarchyKeyInt": 1309194215,
+    "Key": "IB",
+    "Value": "Institutional Banking",
+    "HierarchyKey": "IB",
+    "LevelId": "BusinessUnit",
+    "Parent": null,
+    "Ancestors": null,
+    "Inapplicable_": [],
+    "IsDeleted_": true,
+    "StatusId_": 1,
+    "t_": "BusinessPortfolio"
+  }
+]

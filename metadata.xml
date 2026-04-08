@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metadata xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <module id="Tenant" description="Default Tenant" tenantId="Tenant" major="1" minor="0" patch="2">
+  <module id="Tenant" description="Default Tenant" tenantId="Tenant" major="1" minor="0" patch="3">
     <loadAfter moduleRefId="Core" major="26" minor="11" patch="0" />
     <loadAfter moduleRefId="RiskOrigins" major="26" minor="11" patch="0" />
     <loadAfter moduleRefId="Entity" major="26" minor="11" patch="0" />
@@ -64,10 +64,142 @@
     <model id="UserRole" source="custom_lookup" dataProvider="postgres" modelCategory="ref" resourceModuleId="Core" standardConfig="true">
       <audit userId="admin" time="2016-09-22T07:39:52.0141859Z" />
     </model>
+    <model id="RoleOfPrincipal" source="custom_lookup" dataProvider="postgres" modelCategory="ref" resourceModuleId="Entity" standardConfig="true" />
+    <model id="OnList" source="custom_lookup" dataProvider="postgres" modelCategory="ref" resourceModuleId="Entity" standardConfig="true" />
+    <model id="CtmDgiiClassification" source="custom_lookup" dataProvider="postgres" modelCategory="ref">
+      <attribute id="Type" dataType="string" primaryField="true" keyGenerationStrategy="assigned" />
+      <attribute id="KeyInt" dataType="integer" />
+      <attribute id="Key" dataType="string" primaryField="true" primaryFieldOrder="2" keyGenerationStrategy="assigned" />
+      <attribute id="Value" dataType="string" />
+      <audit userId="adminMS" time="20260331T163858" />
+    </model>
+    <model id="EntityType" source="custom_lookup" dataProvider="postgres" modelCategory="ref" resourceModuleId="Entity" standardConfig="true" />
+    <model id="EntityTypeMapping" source="custom_lookup" dataProvider="postgres" modelCategory="ref" resourceModuleId="Entity" standardConfig="true" />
+    <model id="Entity" source="entity" versionEnable="true" dataProvider="postgres" resourceModuleId="Entity" root="true" createUniqueRule="ValidateUniquenessChecking" updateUniqueRule="ValidateUniquenessChecking" includeInDataGridCache="true">
+      <attribute id="CtmDgiiClassification" dataType="string" refId="CtmDgiiClassification" />
+      <audit userId="adminMS" time="20260331T171720" />
+    </model>
+    <model id="BusinessPortfolio" source="custom_lookup" hierarchy="true" dataProvider="postgres" modelCategory="ref" resourceModuleId="Core">
+      <audit userId="admin" time="20170220T044829" />
+    </model>
+    <model id="CreditPortfolio" source="custom_lookup" dataProvider="postgres" modelCategory="ref" resourceModuleId="Core" standardConfig="true">
+      <audit userId="admin" time="20161205T171440" />
+    </model>
+    <model id="Division" source="custom_lookup" dataProvider="postgres" modelCategory="ref" resourceModuleId="Entity" standardConfig="true" />
+    <model id="ProvinceStateOfIncorporation" source="custom_lookup" dataProvider="postgres" modelCategory="ref" resourceModuleId="Entity">
+      <audit userId="admin" time="20170215T054952" />
+    </model>
+    <model id="State" source="custom_lookup" dataProvider="postgres" modelCategory="ref" resourceModuleId="RiskOrigins">
+      <audit userId="admin" time="20170215T054916" />
+    </model>
   </models>
+  <viewModels>
+    <viewModel id="EntityEdit" primaryModel="Entity" description="" resourceModuleId="Entity" allowDraft="true">
+      <group id="BasicDetails" type="accordion" order="1">
+        <group id="CustomerDetails" order="1">
+          <attribute id="TaxId" modelId="Entity" modelFieldId="TaxId" controlType="text" order="7">
+            <validator>
+              <required value="true" />
+            </validator>
+          </attribute>
+          <attribute id="ExternalDataSources" hidden="true" modelId="Entity" modelFieldId="ExternalDataSources" controlType="multiselect" order="19" />
+          <attribute id="LockedBy" hidden="true" modelId="Entity" modelFieldId="LockedBy" controlType="singleselect" order="20" />
+          <attribute id="IsLocked" hidden="true" modelId="Entity" modelFieldId="IsLocked" controlType="checkbox" order="21" />
+          <attribute id="Liquidity" hidden="true" modelId="Entity" modelFieldId="Liquidity" controlType="text" decimals="2" order="22" />
+          <attribute id="NetWorth" hidden="true" modelId="Entity" modelFieldId="NetWorth" controlType="text" decimals="2" order="23" />
+          <attribute id="IsVisible_" hidden="true" resourceId="entity.label.visible" modelId="DataContext" modelFieldId="IsVisible_" controlType="checkbox" order="24" />
+        </group>
+        <group id="ContactDetails" order="5" />
+        <group id="Address" order="6" />
+        <group id="PersonContact" order="7" />
+      </group>
+      <group id="Documents" order="4" />
+      <group id="BvdBankFocus" action="show" actionRule="IsBvdEntity" order="5" />
+      <group id="Proposals" order="6" />
+      <group id="BvdOsiris" action="show" actionRule="IsBvdOsirisEntity" order="7" />
+      <group id="ReorganizationHistory" order="8" />
+      <group id="MoodysEntityData" type="accordion" action="show" actionRule="IsOrbisEntity" order="9" />
+      <group id="Ownership" type="accordion" action="show" actionRule="CanShowOwnerShipTab" order="10" />
+      <audit userId="adminMS2" time="20260331T154823" />
+    </viewModel>
+    <viewModel id="EntityContactCreateAndEdit" primaryModel="Contact" resourceModuleId="Entity">
+      <group id="Default" order="1">
+        <attribute id="Email" resourceId="entity.label.Email" modelId="Contact" modelFieldId="Email" controlType="text" order="4">
+          <validator>
+            <pattern regex="/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/" shared="false" />
+          </validator>
+        </attribute>
+        <attribute id="FaxNo" hidden="true" resourceId="entity.label.faxNo" modelId="Contact" modelFieldId="FaxNo" controlType="text" order="7" />
+      </group>
+      <audit userId="adminMS" time="20260331T155611" />
+    </viewModel>
+    <viewModel id="EntityEditOthers" primaryModel="Entity" resourceModuleId="Entity" allowDraft="true">
+      <group id="BasicDetails" type="accordion" order="1">
+        <group id="CustomerDetails" order="1">
+          <attribute id="TaxId" modelId="Entity" modelFieldId="TaxId" controlType="text" order="7">
+            <validator>
+              <required value="true" />
+            </validator>
+          </attribute>
+          <attribute id="ExternalDataSources" hidden="true" modelId="Entity" modelFieldId="ExternalDataSources" controlType="multiselect" order="22" />
+          <attribute id="NetWorth" hidden="true" modelId="Entity" modelFieldId="NetWorth" controlType="text" decimals="2" order="23" />
+        </group>
+      </group>
+      <group id="Business" type="accordion" order="2">
+        <group id="IndustryInformation" order="2">
+          <attribute id="CtmDgiiClassification" modelId="Entity" modelFieldId="CtmDgiiClassification" controlType="singleselect" order="2" />
+          <attribute id="ChangePrimaryIndustry" controlType="custom" order="3" />
+          <viewModelRef id="IndustrySelection" order="4" type="inlineGrid" cellEdit="true" action="enable" actionRule="EnabledIndustryGridWhenClassificationIsSelected" />
+        </group>
+      </group>
+      <group id="Documents" order="4" />
+      <group id="BvdBankFocus" action="show" actionRule="IsBvdEntity" order="5" />
+      <group id="Proposals" order="6" />
+      <group id="BvdOsiris" action="show" actionRule="IsBvdOsirisEntity" order="7" />
+      <group id="MoodysEntityData" type="accordion" action="show" actionRule="IsOrbisEntity" order="8" />
+      <group id="Ownership" type="accordion" action="show" actionRule="CanShowOwnerShipTab" order="9" />
+      <audit userId="adminMS2" time="20260331T180704" />
+    </viewModel>
+  </viewModels>
   <references>
     <ref id="UserRole" modelRefId="UserRole" type="USERROLE" resourceModuleId="Core">
       <audit userId="admin" time="20260316T150630" />
+    </ref>
+    <ref id="RoleOfPrincipal" modelRefId="RoleOfPrincipal" type="ROLEOFPRINCIPAL" shared="false" resourceModuleId="Entity">
+      <audit userId="adminMS" time="20260331T154012" />
+    </ref>
+    <ref id="OnList" modelRefId="OnList" type="ONLIST" shared="false" resourceModuleId="Entity">
+      <audit userId="adminMS2" time="20260331T155543" />
+    </ref>
+    <ref id="CtmDgiiClassification" modelRefId="CtmDgiiClassification" type="CTMDGIICLASSIFICATION">
+      <query>
+        <projection>
+          <key modelFieldId="Key" />
+          <display modelFieldIds="Value" />
+        </projection>
+      </query>
+      <audit userId="adminMS" time="20260331T163900" />
+    </ref>
+    <ref id="EntityType" modelRefId="EntityType" type="ENTITYTYPE" shared="false" resourceModuleId="Entity">
+      <audit userId="adminMS2" time="20260331T164338" />
+    </ref>
+    <ref id="EntityTypeMapping" modelRefId="EntityTypeMapping" mappingType="true" mappingArtifactType="ViewModel" type="ENTITYTYPEMAPPING" shared="false" resourceModuleId="Entity">
+      <audit userId="adminMS2" time="20260331T165236" />
+    </ref>
+    <ref id="BusinessPortfolio" modelRefId="BusinessPortfolio" hierarchical="true" type="BUSINESSPORTFOLIO" noChildIsLeaf="true" numberOfLevels="3" resourceModuleId="Core">
+      <audit userId="adminMS2" time="20260331T173351" />
+    </ref>
+    <ref id="CreditPortfolio" modelRefId="CreditPortfolio" type="CREDITPORTFOLIO" resourceModuleId="Core">
+      <audit userId="adminMS" time="20260331T175241" />
+    </ref>
+    <ref id="Division" modelRefId="Division" type="DIVISION" shared="false" resourceModuleId="Entity">
+      <audit userId="adminMS" time="20260331T180350" />
+    </ref>
+    <ref id="ProvinceStateOfIncorporation" modelRefId="ProvinceStateOfIncorporation" type="PROVINCESTATEOFINCORPORATION" localeSupport="false" shared="false" resourceModuleId="Entity">
+      <audit userId="adminMS" time="20260407T151558" />
+    </ref>
+    <ref id="State" modelRefId="State" type="STATE" shared="false" resourceModuleId="RiskOrigins">
+      <audit userId="adminMS2" time="20260407T205657" />
     </ref>
   </references>
 </metadata>
