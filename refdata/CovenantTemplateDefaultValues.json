@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "COVENANTTEMPLATEDEFAULTVALUES",
+    "IdInt": 329696176,
+    "Id": "998",
+    "TemplateId": "998",
+    "CovenantTitle": null,
+    "Description": null,
+    "InternalTracking": null,
+    "Frequency": null,
+    "ClientFilingTurnaround": null,
+    "ClientFilingTurnaroundUnit": null,
+    "AutoTesting": false,
+    "TestingThresholdOperator": null,
+    "TestingThresholdValue": null,
+    "TestingThresholdOperator2": null,
+    "TestingThresholdValue2": null,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CovenantTemplateDefaultValues"
+  }
+]

@@ -1,0 +1,147 @@
+[
+  {
+    "Type": "COVENANTTEMPLATES",
+    "TemplateIdInt": 104526569,
+    "TemplateId": "104",
+    "TemplateName": "LTV (Appraised) %",
+    "TemplateStatus": "Published",
+    "CovenantType": "Financial",
+    "CovenantSubType": null,
+    "ViewModel": "CovenantFinancialDetails",
+    "BusinessPortfolio": null,
+    "ProductType": null,
+    "AssetType": null,
+    "FinancialTemplate": [
+      "6"
+    ],
+    "Order": 4,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CovenantTemplates"
+  },
+  {
+    "Type": "COVENANTTEMPLATES",
+    "TemplateIdInt": 104526570,
+    "TemplateId": "105",
+    "TemplateName": "LTV (Cap Rate) %",
+    "TemplateStatus": "Published",
+    "CovenantType": "Financial",
+    "CovenantSubType": null,
+    "ViewModel": "CovenantFinancialDetails",
+    "BusinessPortfolio": null,
+    "ProductType": null,
+    "AssetType": null,
+    "FinancialTemplate": [
+      "6"
+    ],
+    "Order": 5,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CovenantTemplates"
+  },
+  {
+    "Type": "COVENANTTEMPLATES",
+    "TemplateIdInt": 104526571,
+    "TemplateId": "106",
+    "TemplateName": "Debt Yield %",
+    "TemplateStatus": "Published",
+    "CovenantType": "Financial",
+    "CovenantSubType": null,
+    "ViewModel": "CovenantFinancialDetails",
+    "BusinessPortfolio": null,
+    "ProductType": null,
+    "AssetType": null,
+    "FinancialTemplate": [
+      "6"
+    ],
+    "Order": 6,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CovenantTemplates"
+  },
+  {
+    "Type": "COVENANTTEMPLATES",
+    "TemplateIdInt": 104526572,
+    "TemplateId": "107",
+    "TemplateName": "DSCR - Total Debt Service (excl. Forward) - NOI",
+    "TemplateStatus": "Published",
+    "CovenantType": "Financial",
+    "CovenantSubType": null,
+    "ViewModel": "CovenantFinancialDetails",
+    "BusinessPortfolio": null,
+    "ProductType": null,
+    "AssetType": null,
+    "FinancialTemplate": [
+      "6"
+    ],
+    "Order": 7,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CovenantTemplates"
+  },
+  {
+    "Type": "COVENANTTEMPLATES",
+    "TemplateIdInt": 104526581,
+    "TemplateId": "108",
+    "TemplateName": "DSCR - Total Debt Service (excl. Forward) - NCF",
+    "TemplateStatus": "Published",
+    "CovenantType": "Financial",
+    "CovenantSubType": null,
+    "ViewModel": "CovenantFinancialDetails",
+    "BusinessPortfolio": null,
+    "ProductType": null,
+    "AssetType": null,
+    "FinancialTemplate": [
+      "6"
+    ],
+    "Order": 8,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CovenantTemplates"
+  },
+  {
+    "Type": "COVENANTTEMPLATES",
+    "TemplateIdInt": 329696176,
+    "TemplateId": "998",
+    "TemplateName": "Interinos",
+    "TemplateStatus": "Published",
+    "CovenantType": "NonFinancial",
+    "CovenantSubType": "NonFinancialDocumentation",
+    "ViewModel": "CovenantNonFinancialDetails",
+    "BusinessPortfolio": null,
+    "ProductType": null,
+    "AssetType": null,
+    "FinancialTemplate": null,
+    "Order": null,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CovenantTemplates"
+  },
+  {
+    "Type": "COVENANTTEMPLATES",
+    "TemplateIdInt": 329696177,
+    "TemplateId": "999",
+    "TemplateName": "Deuda Total",
+    "TemplateStatus": "Draft",
+    "CovenantType": "Financial",
+    "CovenantSubType": null,
+    "ViewModel": "CovenantFinancialDetails",
+    "BusinessPortfolio": null,
+    "ProductType": null,
+    "AssetType": null,
+    "FinancialTemplate": [
+      "6"
+    ],
+    "Order": null,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CovenantTemplates"
+  }
+]
