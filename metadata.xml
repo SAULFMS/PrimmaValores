@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <metadata xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <module id="Tenant" description="Default Tenant" tenantId="Tenant" major="1" minor="0" patch="3">
+  <module id="Tenant" description="Default Tenant" tenantId="Tenant" major="1" minor="0" patch="5">
     <loadAfter moduleRefId="Core" major="26" minor="11" patch="0" />
     <loadAfter moduleRefId="RiskOrigins" major="26" minor="11" patch="0" />
     <loadAfter moduleRefId="Entity" major="26" minor="11" patch="0" />
@@ -86,9 +86,6 @@
       <audit userId="admin" time="20161205T171440" />
     </model>
     <model id="Division" source="custom_lookup" dataProvider="postgres" modelCategory="ref" resourceModuleId="Entity" standardConfig="true" />
-    <model id="ProvinceStateOfIncorporation" source="custom_lookup" dataProvider="postgres" modelCategory="ref" resourceModuleId="Entity">
-      <audit userId="admin" time="20170215T054952" />
-    </model>
     <model id="State" source="custom_lookup" dataProvider="postgres" modelCategory="ref" resourceModuleId="RiskOrigins">
       <audit userId="admin" time="20170215T054916" />
     </model>
@@ -203,9 +200,6 @@
     </ref>
     <ref id="Division" modelRefId="Division" type="DIVISION" shared="false" resourceModuleId="Entity">
       <audit userId="adminMS" time="20260331T180350" />
-    </ref>
-    <ref id="ProvinceStateOfIncorporation" modelRefId="ProvinceStateOfIncorporation" type="PROVINCESTATEOFINCORPORATION" localeSupport="false" shared="false" resourceModuleId="Entity">
-      <audit userId="adminMS" time="20260407T151558" />
     </ref>
     <ref id="State" modelRefId="State" type="STATE" shared="false" resourceModuleId="RiskOrigins">
       <audit userId="adminMS2" time="20260407T205657" />
