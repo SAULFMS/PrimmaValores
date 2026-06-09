@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <metadata xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <module id="Tenant" description="Default Tenant" tenantId="Tenant" major="1" minor="0" patch="4">
+  <module id="Tenant" description="Default Tenant" tenantId="Tenant" major="1" minor="0" patch="6">
     <loadAfter moduleRefId="Core" major="26" minor="11" patch="0" />
     <loadAfter moduleRefId="RiskOrigins" major="26" minor="11" patch="0" />
     <loadAfter moduleRefId="Entity" major="26" minor="11" patch="0" />
@@ -97,6 +97,9 @@
     </model>
     <model id="CovenantTemplateDefaultValues" source="custom_lookup" dataProvider="postgres" modelCategory="ref" resourceModuleId="Covenant">
       <audit userId="jason" time="20190618T194401" />
+    </model>
+    <model id="ProvinceStateOfIncorporation" source="custom_lookup" dataProvider="postgres" modelCategory="ref" resourceModuleId="Entity">
+      <audit userId="admin" time="20170215T054952" />
     </model>
   </models>
   <viewModels>
@@ -212,6 +215,9 @@
     </ref>
     <ref id="CovenantTemplateDefaultValues" modelRefId="CovenantTemplateDefaultValues" type="COVENANTTEMPLATEDEFAULTVALUES" shared="false" resourceModuleId="Covenant">
       <audit userId="admin" time="20260429T184332" />
+    </ref>
+    <ref id="ProvinceStateOfIncorporation" modelRefId="ProvinceStateOfIncorporation" type="PROVINCESTATEOFINCORPORATION" localeSupport="false" shared="false" resourceModuleId="Entity">
+      <audit userId="adminMS" time="20260609T174623" />
     </ref>
   </references>
 </metadata>
