@@ -1,0 +1,118 @@
+[
+  {
+    "Type": "ENTITYTYPEMAPPING",
+    "Artifact": "EntityCardOrganization",
+    "EntityType": [
+      "14",
+      "13",
+      "12",
+      "11",
+      "10",
+      "9",
+      "8",
+      "7",
+      "6",
+      "5",
+      "4",
+      "3",
+      "2",
+      "1",
+      "15"
+    ],
+    "DataOperationType": [
+      "Card"
+    ],
+    "ArtifactInt": 47573632,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "EntityTypeMapping"
+  },
+  {
+    "Type": "ENTITYTYPEMAPPING",
+    "Artifact": "EntityCreate",
+    "EntityType": [
+      "14",
+      "13",
+      "12",
+      "11",
+      "10",
+      "9",
+      "8",
+      "7",
+      "6",
+      "5",
+      "4",
+      "3",
+      "2",
+      "1",
+      "15"
+    ],
+    "DataOperationType": [
+      "Create"
+    ],
+    "ArtifactInt": 2121655347,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "EntityTypeMapping"
+  },
+  {
+    "Type": "ENTITYTYPEMAPPING",
+    "Artifact": "EntityCreateOthers",
+    "EntityType": [
+      "14",
+      "13",
+      "12",
+      "11",
+      "10",
+      "9",
+      "8",
+      "7",
+      "6",
+      "5",
+      "4",
+      "3",
+      "2",
+      "1",
+      "15"
+    ],
+    "DataOperationType": [
+      "Create"
+    ],
+    "ArtifactInt": 99835602,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "EntityTypeMapping"
+  },
+  {
+    "Type": "ENTITYTYPEMAPPING",
+    "Artifact": "EntityEditOthers",
+    "EntityType": [
+      "14",
+      "13",
+      "12",
+      "11",
+      "10",
+      "9",
+      "8",
+      "7",
+      "6",
+      "5",
+      "4",
+      "3",
+      "2",
+      "1",
+      "15"
+    ],
+    "DataOperationType": [
+      "Update"
+    ],
+    "ArtifactInt": 778510406,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "EntityTypeMapping"
+  }
+]

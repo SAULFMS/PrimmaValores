@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "DIVISION",
+    "KeyInt": 2088810019,
+    "Key": "BusinessAdvisory",
+    "Value": "Bussiness – Advisory",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "Division"
+  },
+  {
+    "Type": "DIVISION",
+    "KeyInt": 350770148,
+    "Key": "BusinessGeneral",
+    "Value": "Business – General",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "Division"
+  },
+  {
+    "Type": "DIVISION",
+    "KeyInt": 1391327740,
+    "Key": "BusinessSales",
+    "Value": "Business – Sales",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "Division"
+  },
+  {
+    "Type": "DIVISION",
+    "KeyInt": 705176971,
+    "Key": "Corporate",
+    "Value": "Corporate",
+    "Inapplicable_": [],
+    "IsDeleted_": true,
+    "StatusId_": 1,
+    "t_": "Division"
+  },
+  {
+    "Type": "DIVISION",
+    "KeyInt": 904007609,
+    "Key": "FinancialInstitution",
+    "Value": "Financial Institution",
+    "Inapplicable_": [],
+    "IsDeleted_": true,
+    "StatusId_": 1,
+    "t_": "Division"
+  },
+  {
+    "Type": "DIVISION",
+    "KeyInt": 1998347524,
+    "Key": "LargeCorporate",
+    "Value": "Large Corporate",
+    "Inapplicable_": [],
+    "IsDeleted_": true,
+    "StatusId_": 1,
+    "t_": "Division"
+  },
+  {
+    "Type": "DIVISION",
+    "KeyInt": 1009905946,
+    "Key": "NonFinancialInstitution",
+    "Value": "Non-Financial Institution",
+    "Inapplicable_": [],
+    "IsDeleted_": true,
+    "StatusId_": 1,
+    "t_": "Division"
+  },
+  {
+    "Type": "DIVISION",
+    "KeyInt": 900730871,
+    "Key": "Treasury",
+    "Value": "Treasury",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "Division"
+  }
+]
