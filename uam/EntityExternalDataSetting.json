@@ -1,0 +1,26 @@
+[
+  {
+    "EntityExternalDataSettingId": "1e0f850c-4047-4d0b-b9f4-681b9a561ac5",
+    "OrbisAvailableLimit": 500,
+    "EntitySystemSettingId": "ed00b101-2a1b-4b13-8f38-086c78640381",
+    "OrbisUsedLimit": 0,
+    "Inapplicable_": [],
+    "WFId_": "00000000-0000-0000-0000-000000000000",
+    "TaskId_": "00000000-0000-0000-0000-000000000000",
+    "VersionId_": 1,
+    "BaseVersionId_": 0,
+    "IsLatestVersion_": true,
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "CreatedBy_": "admin",
+    "CreatedDate_": "2026-01-08T02:05:31.059013Z",
+    "UpdatedBy_": null,
+    "UpdatedDate_": null,
+    "t_": "EntityExternalDataSetting",
+    "ContextUserId_": "admin",
+    "IsValid_": true,
+    "IsVisible_": true,
+    "SnapshotId_": 0,
+    "SnapshotIdList_": null
+  }
+]

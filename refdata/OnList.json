@@ -1,0 +1,72 @@
+[
+  {
+    "Type": "ONLIST",
+    "Key": "1",
+    "Value": "Watch",
+    "KeyInt": 372029325,
+    "Inapplicable_": [],
+    "IsDeleted_": true,
+    "StatusId_": 1,
+    "t_": "OnList"
+  },
+  {
+    "Type": "ONLIST",
+    "Key": "11",
+    "Value": "Normal",
+    "KeyInt": 680244472,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "OnList"
+  },
+  {
+    "Type": "ONLIST",
+    "Key": "2",
+    "Value": "Non-performing",
+    "KeyInt": 372029328,
+    "Inapplicable_": [],
+    "IsDeleted_": true,
+    "StatusId_": 1,
+    "t_": "OnList"
+  },
+  {
+    "Type": "ONLIST",
+    "Key": "22",
+    "Value": "Under Observation",
+    "KeyInt": 1083529002,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "OnList"
+  },
+  {
+    "Type": "ONLIST",
+    "Key": "3",
+    "Value": "Under Action Plan",
+    "KeyInt": 372029327,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "OnList"
+  },
+  {
+    "Type": "ONLIST",
+    "Key": "4",
+    "Value": "In Recovery",
+    "KeyInt": 372029322,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "OnList"
+  },
+  {
+    "Type": "ONLIST",
+    "Key": "5",
+    "Value": "Non‑Compliant",
+    "KeyInt": 372029321,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "OnList"
+  }
+]

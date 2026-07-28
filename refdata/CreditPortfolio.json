@@ -1,0 +1,82 @@
+[
+  {
+    "Type": "CREDITPORTFOLIO",
+    "KeyInt": 152570766,
+    "Key": "AmerTeam",
+    "Value": "Americas Team",
+    "Inapplicable_": [],
+    "IsDeleted_": true,
+    "StatusId_": 1,
+    "t_": "CreditPortfolio"
+  },
+  {
+    "Type": "CREDITPORTFOLIO",
+    "KeyInt": 346946086,
+    "Key": "ApacTeam",
+    "Value": "APAC Team",
+    "Inapplicable_": [],
+    "IsDeleted_": true,
+    "StatusId_": 1,
+    "t_": "CreditPortfolio"
+  },
+  {
+    "Type": "CREDITPORTFOLIO",
+    "KeyInt": 2110473647,
+    "Key": "BSBT",
+    "Value": "BSB / BTB",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CreditPortfolio"
+  },
+  {
+    "Type": "CREDITPORTFOLIO",
+    "KeyInt": 159273621,
+    "Key": "EmeaTeam",
+    "Value": "EMEA Team",
+    "Inapplicable_": [],
+    "IsDeleted_": true,
+    "StatusId_": 1,
+    "t_": "CreditPortfolio"
+  },
+  {
+    "Type": "CREDITPORTFOLIO",
+    "KeyInt": 1716401789,
+    "Key": "Factoring",
+    "Value": "Factoring",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CreditPortfolio"
+  },
+  {
+    "Type": "CREDITPORTFOLIO",
+    "KeyInt": 1554783887,
+    "Key": "Loans",
+    "Value": "Loans (direct, syndicated, hybrid, subordinated, etc.)",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CreditPortfolio"
+  },
+  {
+    "Type": "CREDITPORTFOLIO",
+    "KeyInt": 1489476499,
+    "Key": "Others",
+    "Value": "Others",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CreditPortfolio"
+  },
+  {
+    "Type": "CREDITPORTFOLIO",
+    "KeyInt": 1079558030,
+    "Key": "PubOff",
+    "Value": "Public Offering",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CreditPortfolio"
+  }
+]

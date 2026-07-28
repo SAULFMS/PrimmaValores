@@ -1,0 +1,112 @@
+[
+  {
+    "Type": "ROLEOFPRINCIPAL",
+    "KeyInt": 1015308023,
+    "Key": "ADV",
+    "Value": "Boardmember",
+    "EntityType": null,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "RoleOfPrincipal"
+  },
+  {
+    "Type": "ROLEOFPRINCIPAL",
+    "KeyInt": 1596707913,
+    "Key": "CEO",
+    "Value": "CEO",
+    "EntityType": null,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "RoleOfPrincipal"
+  },
+  {
+    "Type": "ROLEOFPRINCIPAL",
+    "KeyInt": 1999992440,
+    "Key": "CFO",
+    "Value": "CFO",
+    "EntityType": null,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "RoleOfPrincipal"
+  },
+  {
+    "Type": "ROLEOFPRINCIPAL",
+    "KeyInt": 659077846,
+    "Key": "CLO",
+    "Value": "CLO",
+    "EntityType": null,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "RoleOfPrincipal"
+  },
+  {
+    "Type": "ROLEOFPRINCIPAL",
+    "KeyInt": 77678139,
+    "Key": "COO",
+    "Value": "COO",
+    "EntityType": null,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "RoleOfPrincipal"
+  },
+  {
+    "Type": "ROLEOFPRINCIPAL",
+    "KeyInt": 2128316394,
+    "Key": "Director",
+    "Value": "Director",
+    "EntityType": null,
+    "Inapplicable_": [],
+    "IsDeleted_": true,
+    "StatusId_": 1,
+    "t_": "RoleOfPrincipal"
+  },
+  {
+    "Type": "ROLEOFPRINCIPAL",
+    "KeyInt": 1154331817,
+    "Key": "FinancialController",
+    "Value": "Financial Controller",
+    "EntityType": null,
+    "Inapplicable_": [],
+    "IsDeleted_": true,
+    "StatusId_": 1,
+    "t_": "RoleOfPrincipal"
+  },
+  {
+    "Type": "ROLEOFPRINCIPAL",
+    "KeyInt": 482118958,
+    "Key": "LegalRepresentative",
+    "Value": "Legal Representative/Person-in-Charge",
+    "EntityType": null,
+    "Inapplicable_": [],
+    "IsDeleted_": true,
+    "StatusId_": 1,
+    "t_": "RoleOfPrincipal"
+  },
+  {
+    "Type": "ROLEOFPRINCIPAL",
+    "KeyInt": 1596708050,
+    "Key": "OEX",
+    "Value": "Other Executive",
+    "EntityType": null,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "RoleOfPrincipal"
+  },
+  {
+    "Type": "ROLEOFPRINCIPAL",
+    "KeyInt": 480963173,
+    "Key": "SHR",
+    "Value": "Shareholder",
+    "EntityType": null,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "RoleOfPrincipal"
+  }
+]

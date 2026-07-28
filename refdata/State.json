@@ -1,0 +1,46 @@
+[
+  {
+    "Type": "STATE",
+    "KeyInt": 1344052130,
+    "Key": "DO07",
+    "Value": "Elías Piña",
+    "Country": "DOM",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "State"
+  },
+  {
+    "Type": "STATE",
+    "KeyInt": 1296997963,
+    "Key": "DO08",
+    "Value": "El Seibo",
+    "Country": "DOM",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "State"
+  },
+  {
+    "Type": "STATE",
+    "KeyInt": 715598255,
+    "Key": "DO19",
+    "Value": "Hermanas Mirabal",
+    "Country": "DOM",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "State"
+  },
+  {
+    "Type": "STATE",
+    "KeyInt": 1522167311,
+    "Key": "DO33",
+    "Value": "Distrito Nacional",
+    "Country": "DOM",
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "State"
+  }
+]

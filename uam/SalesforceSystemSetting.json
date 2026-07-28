@@ -1,0 +1,26 @@
+[
+  {
+    "SalesforceSystemSettingId": "4db9e764-3847-4b38-a078-23f93b2dd298",
+    "SystemSettingId": "14700269-cb8b-462e-ae1d-16816ffa19f7",
+    "SalesforceApiVersion": "v39.0",
+    "TokenRequestUrl": "https://test.salesforce.com/services/oauth2/token",
+    "UserId": "api.user.ers.cao@moodys.com",
+    "Inapplicable_": [],
+    "WFId_": "00000000-0000-0000-0000-000000000000",
+    "TaskId_": "00000000-0000-0000-0000-000000000000",
+    "VersionId_": 1,
+    "BaseVersionId_": 0,
+    "IsLatestVersion_": true,
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "CreatedBy_": "admin",
+    "CreatedDate_": "2026-01-08T02:05:44.814765Z",
+    "UpdatedBy_": null,
+    "UpdatedDate_": null,
+    "t_": "SalesforceSystemSetting",
+    "ContextUserId_": "admin",
+    "IsValid_": true,
+    "IsVisible_": true,
+    "SnapshotId_": 0
+  }
+]

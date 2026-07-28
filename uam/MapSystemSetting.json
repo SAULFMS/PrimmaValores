@@ -1,0 +1,26 @@
+[
+  {
+    "MapSystemSettingId": "8adb2250-3d02-42ca-893e-151d7d0acd63",
+    "CapSsoLoginUrl": "https://sso.moodysanalytics.com/sso-api/v1/token",
+    "CapSsoLoginUsername": "riesgos@primmavalores.com",
+    "SystemSettingId": "14700269-cb8b-462e-ae1d-16816ffa19f7",
+    "UseProxyForMap": null,
+    "Inapplicable_": [],
+    "WFId_": "00000000-0000-0000-0000-000000000000",
+    "TaskId_": "00000000-0000-0000-0000-000000000000",
+    "VersionId_": 2,
+    "BaseVersionId_": 1,
+    "IsLatestVersion_": true,
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "CreatedBy_": "admin",
+    "CreatedDate_": "2026-01-08T02:05:31.059013Z",
+    "UpdatedBy_": "gcoelho",
+    "UpdatedDate_": "2026-05-21T13:50:21.791842Z",
+    "t_": "MapSystemSetting",
+    "ContextUserId_": "gcoelho",
+    "IsValid_": true,
+    "IsVisible_": true,
+    "SnapshotId_": 0
+  }
+]
