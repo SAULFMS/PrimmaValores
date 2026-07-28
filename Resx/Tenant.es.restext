@@ -17,3 +17,5 @@ Entity.attr.model.Entity.viewModel.EntityEditOthers.PrimaryBankingOfficer=Ejecut
 Entity.attr.model.Entity.viewModel.EntityEditOthers.PrimaryCreditOfficer=Analista de Crédito Principal
 Entity.attr.model.Entity.viewModel.EntityEditOthers.RegistrationNumber=Registro Mercantil
 Entity.attr.model.Entity.viewModel.EntityEditOthers.TaxId=RNC
+Entity.attr.model.Entity.viewModel.EntitySearch.PrimaryBankingOfficer=Ejecutivo Principal
+Entity.attr.model.Entity.viewModel.EntitySearch.PrimaryCreditOfficer=Analista de Crédito Principal

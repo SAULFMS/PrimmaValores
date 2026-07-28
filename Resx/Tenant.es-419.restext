@@ -18,3 +18,4 @@ Entity.attr.model.Entity.viewModel.EntityEditOthers.RegistrationNumber=Registro 
 Entity.attr.model.Entity.viewModel.EntityEditOthers.TaxId=RNC
 Entity.attr.model.Entity.viewModel.EntitySearch.PrimaryBankingOfficer=Ejecutivo principal
 Entity.attr.model.Entity.viewModel.EntitySearch.PrimaryCreditOfficer=Analista de Crédito Principal
+Tenant.rule.StatusTransitionDecision.description=Decidir la configuración de los días P/T/O y de los resultados de finalización automática para la transición de estado basado en el Convenio

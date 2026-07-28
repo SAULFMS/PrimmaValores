@@ -1,0 +1,993 @@
+/// <XRTypeInfo>
+///   <AssemblyFullName>DevExpress.XtraReports.v24.2, Version=24.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</AssemblyFullName>
+///   <AssemblyLocation>C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\bd34b683\00b8e4cf_db7fdb01\DevExpress.XtraReports.v24.2.dll</AssemblyLocation>
+///   <TypeName>DevExpress.XtraReports.UI.XtraReport</TypeName>
+///   <Localization>en</Localization>
+///   <Version>24.2</Version>
+///   <References>
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\13785a9b\188baf37_f9fadc01\Moodys.ERS.RO.Domain.State.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\71f67456\002284fc_c569d601\CodeEffects.Rule.Common.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\netstandard\v4.0_2.0.0.0__cc7b13ffcd2ddd51\netstandard.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.SqlXml\v4.0_4.0.0.0__b77a5c561934e089\System.Data.SqlXml.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Security\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Security.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Numerics\v4.0_4.0.0.0__b77a5c561934e089\System.Numerics.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_64\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_64\System.Transactions\v4.0_4.0.0.0__b77a5c561934e089\System.Transactions.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_64\System.EnterpriseServices\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.DirectoryServices\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.DirectoryServices.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Caching\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.Caching.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Data.Common\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Data.Common.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Globalization.Extensions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Globalization.Extensions.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.IO.Compression\v4.0_4.0.0.0__b77a5c561934e089\System.IO.Compression.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.IO.Compression.FileSystem\v4.0_4.0.0.0__b77a5c561934e089\System.IO.Compression.FileSystem.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ComponentModel.Composition\v4.0_4.0.0.0__b77a5c561934e089\System.ComponentModel.Composition.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Net.Http\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Net.Http.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.InteropServices.RuntimeInformation\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.InteropServices.RuntimeInformation.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Internals\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Internals.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\SMDiagnostics\v4.0_4.0.0.0__b77a5c561934e089\SMDiagnostics.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Security.Cryptography.Algorithms\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Security.Cryptography.Algorithms.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_64\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.RegularExpressions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.RegularExpressions.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Design\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Design.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Accessibility\v4.0_4.0.0.0__b03f5f7f11d50a3a\Accessibility.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.ApplicationServices\v4.0_4.0.0.0__31bf3856ad364e35\System.Web.ApplicationServices.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ComponentModel.DataAnnotations\v4.0_4.0.0.0__31bf3856ad364e35\System.ComponentModel.DataAnnotations.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.DirectoryServices.Protocols\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.DirectoryServices.Protocols.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Web.Services\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Build.Utilities.v4.0\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Utilities.v4.0.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Build.Framework\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Framework.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xaml\v4.0_4.0.0.0__b77a5c561934e089\System.Xaml.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\af512cb3\0029010e_9dbfdc01\Moodys.ERS.RO.Core.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\6bc56366\007a80ee_4951d901\Newtonsoft.Json.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\ccfaca2a\0066062c_2302dc01\camunda-package.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\42b8ad8d\00791f56_7e2ada01\IKVM.Runtime.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\4fd40887\001fbd53_7e2ada01\IKVM.Java.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\2e4e0e38\001f73fc_4862d801\System.Memory.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\4b99a147\00d400bb_0decd301\System.Numerics.Vectors.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\0b19669a\00835608_c9e6d501\System.Buffers.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\45f02a71\00835608_c9e6d501\System.Threading.Tasks.Extensions.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\7bbdd2f3\005ba514_7ca4d701\Mono.Unix.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\329af86a\00786d91_7d2ada01\IKVM.ByteCode.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\c796f3b3\009d671d_5bc7d701\System.Runtime.CompilerServices.Unsafe.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\8cd333d4\00929925_2c06da01\HtmlSanitizer.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\95ddc340\00ea6ecb_4e76d801\AngleSharp.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\4da3b9fc\004088fd_ef28d901\AngleSharp.Css.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\f507335c\00462afb_e010d801\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\e9cc18b9\000ffdb3_b69fd801\log4net.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\058c5cd7\0030596c_c80bda01\Microsoft.Extensions.Logging.Abstractions.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\1eb828d6\001590f1_c70bda01\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\ea20865d\00ad06e8_c70bda01\Microsoft.Bcl.AsyncInterfaces.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\7bcad5be\00ec0f74_a56ed901\Autofac.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\043c5b52\00943dc7_2a90dc01\Common.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\e41fa8c7\007b2253_b4f8d801\PostSharp.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Management\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Management.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.JScript\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.JScript.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\948058b9\002d9d80_c80bda01\System.Collections.Immutable.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\1ed1c0b4\00fe742d_03adda01\Microsoft.CodeAnalysis.CSharp.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\4a406a28\00f8cf24_02adda01\Microsoft.CodeAnalysis.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\97f9c598\00ef888c_c80bda01\System.Reflection.Metadata.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\b2060f6c\00770139_cde2d801\System.Text.Encoding.CodePages.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\19e392f1\002ca799_620bd801\Polly.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\15e52062\005459ff_8264d801\Microsoft.Owin.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\9873a7e6\000fc215_56c1cd01\Owin.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.VisualBasic\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualBasic.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\d6795507\00a760a2_a6f4d601\AutofacContrib.NSubstitute.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\045ba45e\00de2d9c_0241d601\NSubstitute.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\e5a80c8f\00dd56e2_0eebd401\Castle.Core.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\130118d2\00c16ec8_2a90dc01\Moodys.ERS.RO.Core.DataAccess.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\9bd9d748\00882d19_0bf5d901\Oracle.ManagedDataAccess.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\ac62679a\0036056d_6ef8da01\Microsoft.Data.SqlClient.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\02bbf827\0068eb1f_1bb8da01\Microsoft.Identity.Client.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\44b7f586\00112a74_ce23da01\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\3eee8ebc\0088c5bf_0decd301\System.ValueTuple.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\dec895b6\003de4fd_9739db01\Npgsql.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\033b63c5\00ca2886_1abcd601\Microsoft.Bcl.HashCode.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\21b05ab0\00f3f63c_c90bda01\System.Threading.Channels.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\d0f723a8\0023b7f8_c70bda01\System.Diagnostics.DiagnosticSource.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\d84da8ca\00d8722c_d848d901\Quartz.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\4e9e13f0\0017f503_cbbbda01\Standard.Licensing.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\4f4e5ffb\00f7fbc4_1556da01\Microsoft.IdentityModel.Tokens.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\06075a16\00f7fbc4_1556da01\Microsoft.IdentityModel.Logging.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\239b7569\000523cc_1556da01\Microsoft.IdentityModel.Abstractions.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\5894270d\008f72bb_1556da01\Microsoft.IdentityModel.JsonWebTokens.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\02f8b487\00b8e4cf_db7fdb01\DevExpress.XtraReports.v24.2.Web.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel\v4.0_4.0.0.0__b77a5c561934e089\System.ServiceModel.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.IdentityModel\v4.0_4.0.0.0__b77a5c561934e089\System.IdentityModel.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Transactions.Bridge\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.Transactions.Bridge.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Messaging\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Messaging.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.DurableInstancing\v4.0_4.0.0.0__31bf3856ad364e35\System.Runtime.DurableInstancing.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Activation\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Activation.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.ServiceModel.Activities\v4.0_4.0.0.0__31bf3856ad364e35\System.ServiceModel.Activities.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Activities\v4.0_4.0.0.0__31bf3856ad364e35\System.Activities.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_64\Microsoft.VisualBasic.Activities.Compiler\v4.0_10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualBasic.Activities.Compiler.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xaml.Hosting\v4.0_4.0.0.0__31bf3856ad364e35\System.Xaml.Hosting.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\46ea54fa\00ff82bc_2a90dc01\Moodys.ERS.RO.DataGrid.Core.CacheModels.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\4c1b2e4b\00122a2e_4877d901\Apache.Ignite.Core.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\784a9551\006f4d56_4d9bd501\Microsoft.Win32.Registry.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\71d0b8f2\00023496_8475d301\QuickGraph.Core.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\66e93163\007ca085_2da0d901\Aspose.PDF.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\93a34160\0014a452_55a0da01\BouncyCastle.Cryptography.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\2e5e07bf\0005a42d_d848d901\Quartz.Serialization.Json.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\d5bca42e\002fe7ad_02adda01\Microsoft.CodeAnalysis.Workspaces.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\294a103b\00331558_c80bda01\System.Composition.AttributedModel.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\70789123\00114f72_c80bda01\System.Composition.Runtime.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\05890dd2\008a5b66_de14d801\Humanizer.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\6a730e79\003290c4_c80bda01\System.Composition.TypedParts.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\be267a29\001cba8d_c80bda01\System.Composition.Hosting.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\e412c2ed\007f6328_02adda01\Microsoft.CodeAnalysis.Scripting.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\9c2ec111\005964b8_2202dc01\CodeEffects.Rule.Engine.Standard.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\Microsoft.CSharp\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.CSharp.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Dynamic\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Dynamic.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\5071f5d5\00ca02b2_d701d301\PortCMIS.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Resources.ResourceManager\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Resources.ResourceManager.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Collections\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Collections.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.IO\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.IO.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Numerics\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.Numerics.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Net.Primitives\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Net.Primitives.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Threading.Tasks\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.Tasks.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Globalization\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Globalization.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\bf38c73f\00e20480_a9a5d901\GroupDocs.Viewer.dll" />
+///     <Reference Path="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\WindowsBase\v4.0_4.0.0.0__31bf3856ad364e35\WindowsBase.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\ba4a0481\00943dc7_2a90dc01\S3Store.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\dcc80cb5\009d7b4a_51c9da01\AWSSDK.S3.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\ceb83b9d\00e9b645_51c9da01\AWSSDK.Core.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\6ccf089c\00ee9fc9_2a90dc01\BlobStore.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\bb029668\005100be_41a5da01\Azure.Storage.Blobs.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\a399e07f\00e976b4_41a5da01\Azure.Storage.Common.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\b353b951\008ded95_532cd701\System.Memory.Data.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\ef0c0baa\00aa113d_293eda01\System.ClientModel.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\720f53c5\00f1df2b_89c0da01\Azure.Identity.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\d096b663\00b5d8df_1bb8da01\Microsoft.Identity.Client.Extensions.Msal.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\78137f66\005df11f_04a6d601\System.IO.FileSystem.AccessControl.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\8b889129\001a1719_05a6d601\System.Security.Principal.Windows.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\ce7de187\00aaa55e_4d9bd501\System.Security.Cryptography.ProtectedData.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\3d4a719c\00c16ec8_2a90dc01\MinioStore.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\6ba7f712\00d38daa_3e5cda01\Minio.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\a38d41fc\00b39da0_d189d901\System.Reactive.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\4bc696eb\00ea9548_c80bda01\Microsoft.Extensions.DependencyInjection.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\6f9a9a05\00e5a204_c80bda01\System.IO.Hashing.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\e6b3b2af\006da3da_7306da01\CommunityToolkit.HighPerformance.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\2ac5e48d\00b7ec6f_c80bda01\Microsoft.Extensions.Configuration.Abstractions.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\7c8b76bf\00e85ef0_c70bda01\Microsoft.Extensions.Primitives.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\4649f12f\00a091a5_c80bda01\Microsoft.Extensions.FileProviders.Physical.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\cb4bb0c2\0020fb0c_c80bda01\Microsoft.Extensions.FileProviders.Abstractions.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\b4e2a981\00e5a204_c80bda01\Microsoft.Extensions.FileSystemGlobbing.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\ec84716d\005c05da_c80bda01\Microsoft.Extensions.Configuration.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\9be07464\001b35fa_c80bda01\Microsoft.Extensions.Configuration.FileExtensions.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\a3a36bbf\0064b409_c90bda01\Microsoft.Extensions.Configuration.Json.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\032f83dd\0008c13f_51c9da01\AWSSDK.KeyManagementService.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\03749947\009d7b4a_51c9da01\AWSSDK.SecretsManager.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\ab87f77b\00caac4b_51c9da01\AWSSDK.SimpleNotificationService.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\f6850ac4\00caac4b_51c9da01\AWSSDK.SimpleSystemsManagement.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\cdecb48f\0016450b_8364d801\Microsoft.Owin.Host.SystemWeb.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\17ab1fe8\0066fe36_03adda01\Microsoft.CodeAnalysis.CSharp.Workspaces.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\705caed3\00b23932_03adda01\Microsoft.CodeAnalysis.CSharp.Scripting.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\21e68b64\000daac3_2a90dc01\DocumentViewer.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\5ee6b7df\004866fb_c80bda01\Microsoft.Extensions.Configuration.EnvironmentVariables.dll" />
+///     <Reference Path="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\e22c2559\92c7e946\assembly\dl3\c5b8c686\00f27d4c_d786d401\System.Net.Http.Formatting.dll" />
+///   </References>
+///   <Resources>
+///     <Resource Name="XtraReportSerialization.Report1">
+/// zsrvvgEAAACRAAAAbFN5c3RlbS5SZXNvdXJjZXMuUmVzb3VyY2VSZWFkZXIsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OSNTeXN0ZW0uUmVzb3VyY2VzLlJ1bnRpbWVSZXNvdXJjZVNldAIAAAADAAAAAAAAAFBBRFBBRFA5cv2QSF5ywVvRzRMrAAAAAAAAAF4AAABtAQAAJiQAdABoAGkAcwAuAFMAYwByAGkAcAB0AHMAUwBvAHUAcgBjAGUAAAAAAC5wAGkAYwB0AHUAcgBlAEIAbwB4ADEALgBJAG0AYQBnAGUAUwBvAHUAcgBjAGUA+AsAAD5yAGkAYwBoAFQAZQB4AHQAMQAuAFMAZQByAGkAYQBsAGkAegBhAGIAbABlAFIAdABmAFMAdAByAGkAbgBnAOMaAAAB9Rd1c2luZyBT
+/// eXN0ZW0uTGlucTsNCnVzaW5nIFN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljOw0KdXNpbmcgTW9vZHlzLkVSUy5STy5Eb21haW4uUmVwb3J0aW5nOw0KdXNpbmcgTW9vZHlzLkVSUy5STy5Db3JlLkRhdGFQcm92aWRlcjsNCnVzaW5nIE1vb2R5cy5FUlMuUk8uQ29yZS5Nb2RlbHM7DQp1c2luZyBNb29keXMuRVJTLlJPLkNvcmUuUmVmRGF0YTsNCnVzaW5nIE1vb2R5cy5FUlMuUk8uQ29yZS5SZWdpc3RyYXRpb247DQp1c2luZyBEZXZFeHByZXNzLlh0cmFSaWNoRWRpdDsNCg0Kc3RyaW5nIGZvbnROYW1lID0gc3RyaW5nLkVtcHR5Ow0KaW50IGZvbnRTaXplID0gMDsNCkRldkV4cHJlc3MuWHRyYVJlcG9ydHMuVUkuWHRyYVJlcG9ydCBjdXJyZW50UmVwb3J0Ow0K
+/// RGV2RXhwcmVzcy5YdHJhUmVwb3J0cy5QYXJhbWV0ZXJzLlBhcmFtZXRlciByZXF1ZXN0VHlwZVBhcmFtdGVyOw0KDQpwcml2YXRlIHZvaWQgU2V0Rm9udEZvck5hcnJhdGl2ZXMoc3RyaW5nIG5hcnJhdGl2ZSwgWFJSaWNoVGV4dCByaWNoVGV4dCkgew0KICAgIHVzaW5nIChSaWNoRWRpdERvY3VtZW50U2VydmVyIGRvY1NlcnZlciA9IG5ldyBSaWNoRWRpdERvY3VtZW50U2VydmVyKCkpDQogICAgew0KICAgICAgICBkb2NTZXJ2ZXIuSHRtbFRleHQgPSBuYXJyYXRpdmU7DQogICAgICAgIGlmKGZvbnROYW1lIT0gc3RyaW5nLkVtcHR5ICl7DQogICAgICAgICAgICBkb2NTZXJ2ZXIuRG9jdW1lbnQuRGVmYXVsdENoYXJhY3RlclByb3BlcnRpZXMuRm9udE5hbWUg
+/// PSBmb250TmFtZTsNCiAgICAgICAgfQ0KICAgICAgICBpZihmb250U2l6ZSAhPSAwKXsNCiAgICAgICAgICAgIGRvY1NlcnZlci5Eb2N1bWVudC5EZWZhdWx0Q2hhcmFjdGVyUHJvcGVydGllcy5Gb250U2l6ZSA9IGZvbnRTaXplOw0KICAgICAgICB9DQogICAgICAgIHJpY2hUZXh0Lkh0bWwgPSBkb2NTZXJ2ZXIuSHRtbFRleHQ7DQogICAgfQ0KICAgIA0KfQ0KDQpwcml2YXRlIHZvaWQgUmVwb3J0MV9CZWZvcmVQcmludChvYmplY3Qgc2VuZGVyLCBTeXN0ZW0uQ29tcG9uZW50TW9kZWwuQ2FuY2VsRXZlbnRBcmdzIGUpIHsNCiAgICAgdHJ5DQogICAgew0KICAgICAgICBXZklkLlZhbHVlID0gVGhyZWFkQ29udGV4dC5Db250ZXh0LldmSWQuVG9TdHJpbmcoKTsN
+/// CiAgICAgICAgSU1vZGVsUHJvdmlkZXIgbW9kZWxQcm92aWRlciA9IENvbnRhaW5lck1hbmFnZXIuUmVzb2x2ZTxJTW9kZWxQcm92aWRlcj4oKTsNCiAgICAgICAgdmFyIHJlZlByb3ZpZGVyID0gTW9vZHlzLkVSUy5STy5Db3JlLlJlZ2lzdHJhdGlvbi5Db250YWluZXJNYW5hZ2VyLlJlc29sdmU8TW9vZHlzLkVSUy5STy5Db3JlLlJlZkRhdGEuSVJlZlByb3ZpZGVyPigpOw0KICAgICAgICB2YXIgc3lzdGVtU2V0dGluZ01vZGVsID0gbW9kZWxQcm92aWRlci5HZXRNb2RlbHMoIlN5c3RlbVNldHRpbmciLCBuZXcgTW9kZWwoKSkuRmlyc3RPckRlZmF1bHQoKTsNCiAgICAgICAgdmFyIHJpY2hUZXh0Rm9udEZhbWlseVJlZkRhdGEgPSByZWZQcm92aWRlci5HZXRS
+/// ZWZNb2RlbERhdGEoIlJpY2hUZXh0Rm9udEZhbWlseSIsIE1vb2R5cy5FUlMuUk8uQ29yZS5Nb2RlbHMuTW9kZWwuTmV3KCJJc0RlbGV0ZWRfIiwgZmFsc2UpKS5Ub0xpc3QoKTsNCiAgICAgICAgdmFyIFJpY2hUZXh0Rm9udFNpemVSZWZEYXRhID0gcmVmUHJvdmlkZXIuR2V0UmVmTW9kZWxEYXRhKCJSaWNoVGV4dEZvbnRTaXplIiwgTW9vZHlzLkVSUy5STy5Db3JlLk1vZGVscy5Nb2RlbC5OZXcoIklzRGVsZXRlZF8iLCBmYWxzZSkpLlRvTGlzdCgpOw0KICAgICAgICB2YXIgZm9udFR5cGVSZWYgPSBzeXN0ZW1TZXR0aW5nTW9kZWwuR2V0U2FmZTxzdHJpbmc+KCJSaWNoVGV4dEZvbnRGYW1pbHkiKTsNCiAgICAgICAgdmFyIGZvbnRUeXBlVmFsID0gcmljaFRl
+/// eHRGb250RmFtaWx5UmVmRGF0YQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuV2hlcmUobSA9PiBtLkdldFNhZmU8c3RyaW5nPigiS2V5IikgPT0gZm9udFR5cGVSZWYpDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5GaXJzdE9yRGVmYXVsdCgpOw0KICAgICAgICBmb250TmFtZSA9IGZvbnRUeXBlVmFsICE9IG51bGwgPyBmb250VHlwZVZhbC5HZXRTYWZlPHN0cmluZz4oIkRpc3BsYXlOYW1lIikgOiBzdHJpbmcuRW1wdHk7DQogICAgICAgIHZhciBmb250U2l6ZVJlZiA9IHN5c3RlbVNldHRpbmdNb2RlbC5HZXRTYWZlPHN0cmluZz4oIlJpY2hUZXh0Rm9udFNpemUiKTsgDQogICAgICAgIHZhciBmb250U2l6ZVZhbCA9IFJpY2hU
+/// ZXh0Rm9udFNpemVSZWZEYXRhDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5XaGVyZShtID0+IG0uR2V0U2FmZTxzdHJpbmc+KCJLZXkiKSA9PSBmb250U2l6ZVJlZikNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLkZpcnN0T3JEZWZhdWx0KCk7DQogICAgICAgIHN0cmluZyBmb250U2l6ZVN0cmluZyA9IGZvbnRTaXplVmFsICE9IG51bGwgPyBmb250U2l6ZVZhbC5HZXRTYWZlPHN0cmluZz4oIlZhbHVlIikgOiBzdHJpbmcuRW1wdHk7DQogICAgDQogICAgICAgIGludCBwYXJzZWRGb250U2l6ZTsNCiAgICAgICAgaWYgKGludC5UcnlQYXJzZShmb250U2l6ZVN0cmluZywgb3V0IHBhcnNlZEZvbnRTaXplKSkNCiAgICAgICAgew0K
+/// ICAgICAgICAgICAgZm9udFNpemUgPSBwYXJzZWRGb250U2l6ZTsNCiAgICAgICAgfQ0KICAgICAgICBlbHNlDQogICAgICAgIHsNCiAgICAgICAgICAgIGZvbnRTaXplID0gMDsgDQogICAgICAgIH0NCiAgICB9DQogICAgY2F0Y2goRXhjZXB0aW9uIGV4KXt9DQp9DQoNCnByaXZhdGUgdm9pZCBsYWJlbDRfQWZ0ZXJQcmludChvYmplY3Qgc2VuZGVyLCBTeXN0ZW0uRXZlbnRBcmdzIGUpIHsNCiAgICBsYWJlbDQuVGV4dCA9IkZpbmFuY2lhbCBBbmFseXNpcyBOb3RlIChjb250LikiOw0KfQ0KDQpwcml2YXRlIHZvaWQgcmljaFRleHQxX0JlZm9yZVByaW50KG9iamVjdCBzZW5kZXIsIFN5c3RlbS5Db21wb25lbnRNb2RlbC5DYW5jZWxFdmVudEFyZ3MgZSkgew0K
+/// ICAgIFNldEZvbnRGb3JOYXJyYXRpdmVzKGxhYmVsNS5UZXh0LCByaWNoVGV4dDEpOw0KfQ0KAegdNzd1L1BEOTRiV3dnZG1WeWMybHZiajBuTVM0d0p5QmxibU52WkdsdVp6MG5WVlJHTFRnblB6NE5Danh6ZG1jZ2QybGtkR2c5SWpVNGNIZ2lJR2hsYVdkb2REMGlNVGR3ZUNJZ2RtbGxkMEp2ZUQwaU1DQXdJRFU0SURFM0lpQjRiV3h1Y3owaWFIUjBjRG92TDNkM2R5NTNNeTV2Y21jdk1qQXdNQzl6ZG1jaUlHWnBiR3c5SW01dmJtVWlQZzBLSUNBOFp5QnBaRDBpYldSNVgyeG5YM0puWWw5TmIyOWtlWE5DYkhWbElERWlJR05zYVhBdGNHRjBhRDBpZFhKc0tDTmpiR2x3TUY4ME1EVTFYelF6T1RBcElqNE5DaUFnSUNBOGNtVmpkQ0I0UFNJd0lpQjVQU0l3SWlCM2FX
+/// UjBhRDBpTlRjdU9UTXdOeUlnYUdWcFoyaDBQU0l4TmlJZ1ptbHNiRDBpZDJocGRHVWlJSFJ5WVc1elptOXliVDBpZEhKaGJuTnNZWFJsS0RBdU1EWTROQ3dnTUM0MUtTSWdMejROQ2lBZ0lDQThjR0YwYUNCa1BTSk5OQzR3TmpnNU5TQTBMalE1T1RjeVNEY3VNalUzTkRsTU9DNHlOVEU0SURndU5qRTBNRFJNT0M0ME9URTJOeUE1TGpjMU5qWTBURGd1TnpNeE5UTWdPQzQyTVRRd05FdzVMamN5TlRnMElEUXVORGs1TnpKSU1USXVPVEUwTkZZeE1pNDBPVGszU0RFd0xqZzJPRFJXTnk0ek1URXpNMHd4TUM0MU9ESTFJRGd1TlRBd01ERk1PUzQxTVRrMk5pQXhNaTQwT1RrM1NEY3VOREUzVERZdU16VTBNVFlnT0M0MU1EQXdNVXcyTGpBMk9ESXhJRGN1TXpFeE16TldN
+/// VEl1TkRrNU4wZzBMakEyT0RNMlZqUXVORGs1TnpKSU5DNHdOamc1TlZwTk1qRXVNalUzTmlBNUxqSXhPVFpETWpFdU1qVTNOaUF4TVM0ek5UWTFJREU1TGpnMU1qRWdNVEl1TmpNMk9DQXhOeTQwT1RjNElERXlMall6TmpoRE1UVXVNVFF6TlNBeE1pNDJNelk0SURFekxqY3pPQ0F4TVM0ek5qZ3pJREV6TGpjek9DQTVMakl4T1RaV055NDNOems0TTBNeE15NDNNemdnTlM0Mk5ESTVNU0F4TlM0eE5ETTFJRFF1TXpZeU5qVWdNVGN1TkRrM09DQTBMak0yTWpZMVF6RTVMamcxTWpFZ05DNHpOakkyTlNBeU1TNHlOVGMySURVdU5qTXhNU0F5TVM0eU5UYzJJRGN1TnpjNU9ETldPUzR5TVRrMldrMHhOeTQwT1RjNElEWXVNVE16T0RaRE1UWXVOVEkyTlNBMkxqRXpNemcy
+/// SURFMUxqa3pNaklnTmk0Mk9ESTNNaUF4TlM0NU16SXlJRGN1TlRnMU5EWldPUzQwTVRNNU9FTXhOUzQ1TXpJeUlERXdMak13TlRVZ01UWXVOVEkyTlNBeE1DNDROalUySURFM0xqUTVOemdnTVRBdU9EWTFOa014T0M0ME5qa3hJREV3TGpnMk5UWWdNVGt1TURZek5DQXhNQzR6TURVMUlERTVMakEyTXpRZ09TNDBNVE01T0ZZM0xqVTROVFEyUXpFNUxqQTJNelFnTmk0Mk9ESTNNaUF4T0M0ME5qa3hJRFl1TVRNek9EWWdNVGN1TkRrM09DQTJMakV6TXpnMldrMHlPUzQxTkRNMklEa3VNakU1TmtNeU9TNDFORE0ySURFeExqTTFOalVnTWpndU1UTTRNU0F4TWk0Mk16WTRJREkxTGpjNE16Y2dNVEl1TmpNMk9FTXlNeTQwTWprMElERXlMall6TmpnZ01qSXVNREl6T1NB
+/// eE1TNHpOamd6SURJeUxqQXlNemtnT1M0eU1UazJWamN1TnpjNU9ETkRNakl1TURJek9TQTFMalkwTWpreElESXpMalF5T1RRZ05DNHpOakkyTlNBeU5TNDNPRE0zSURRdU16WXlOalZETWpndU1UTTRNU0EwTGpNMk1qWTFJREk1TGpVME16WWdOUzQyTXpFeElESTVMalUwTXpZZ055NDNOems0TTFZNUxqSXhPVFphVFRJMUxqYzRNemNnTmk0eE16TTROa015TkM0NE1USTFJRFl1TVRNek9EWWdNalF1TWpFNE1TQTJMalk0TWpjeUlESTBMakl4T0RFZ055NDFPRFUwTmxZNUxqUXhNems0UXpJMExqSXhPREVnTVRBdU16QTFOU0F5TkM0NE1USTFJREV3TGpnMk5UWWdNalV1Tnpnek55QXhNQzQ0TmpVMlF6STJMamMxTlNBeE1DNDROalUySURJM0xqTTBPVFFnTVRBdU16
+/// QTFOU0F5Tnk0ek5EazBJRGt1TkRFek9UaFdOeTQxT0RVME5rTXlOeTR6TkRrMElEWXVOamd5TnpJZ01qWXVOelUxSURZdU1UTXpPRFlnTWpVdU56Z3pOeUEyTGpFek16ZzJXazB6Tnk0ME5USWdPQzQ1T1RBNU4wTXpOeTQwTlRJZ01URXVNakE0TWlBek5pNHdNelEzSURFeUxqUTVPVGNnTXpNdU5UYzNOaUF4TWk0ME9UazNTRE13TGpNMU5EZFdOQzQwT1RrM01rZ3pNeTQxTnpjMlF6TTJMakF6TkRjZ05DNDBPVGszTWlBek55NDBOVElnTlM0M09URXlJRE0zTGpRMU1pQTRMakF3T0RRM1ZqZ3VPVGt4TlRaV09DNDVPVEE1TjFwTk16TXVOVGMzTmlBMkxqSTVNemszU0RNeUxqVXlOVGxXTVRBdU56QTFOVWd6TXk0MU56YzJRek0wTGpZNU56Y2dNVEF1TnpBMU5TQXpO
+/// UzR5TlRjNElERXdMakV6TkRJZ016VXVNalUzT0NBNUxqQXlOVEl6VmpjdU9UY3pOakZETXpVdU1qVTNPQ0EyTGpnMU16UTJJRE0wTGpZNU56Y2dOaTR5T1RNek9DQXpNeTQxTnpjMklEWXVNamt6TXpoV05pNHlPVE01TjFwTk16a3VOekF5T1NBNExqazNPVGMwVERNMkxqYzRPRFVnTkM0ME9UazNNa2d6T1M0eU5EVTNURFF3TGpjNE9ESWdOeTR3TVRReE5VdzBNaTR6TVRrMklEUXVORGs1TnpKSU5EUXVOamN6T1V3ME1TNDNOVGsxSURndU9UYzVOelJXTVRJdU5EazVOMGd6T1M0M01ESTBWamd1T1RjNU56UklNemt1TnpBeU9WcE5ORFF1T0RreE15QTBMalE1T1RjeVNEUTNMakEyTWpWV05pNDBPVGsxTjB3ME5TNDJOamd5SURndU16Y3pOVGhJTkRVdU1UazVOMHcw
+/// TlM0NE1UY3hJRFl1Tmpjd09VZzBOQzQ0T1RFelZqUXVORGs1TnpKYVRUVXpMams1T1RjZ01UQXVNREE0TTBNMU15NDVPVGszSURFeExqWTJOVFVnTlRJdU56YzJOeUF4TWk0Mk16WTRJRFV3TGpZNE5UTWdNVEl1TmpNMk9FTTBPQzQxT1RNNUlERXlMall6TmpnZ05EY3VNemd5TnlBeE1TNDJPRGdnTkRjdU16Z3lOeUF4TUM0d09UazVWamt1TnpRMU5ESklORGt1TkRrM01sWXhNQzR3TlRNNFF6UTVMalE1TnpJZ01UQXVOakV6T1NBME9TNDROVEUzSURFd0xqZzFNemdnTlRBdU5qZzFPU0F4TUM0NE5UTTRRelV4TGpRMU1UWWdNVEF1T0RVek9DQTFNUzQ0TlRFMUlERXdMall5TlRFZ05URXVPRFV4TlNBeE1DNHhPVEE1UXpVeExqZzFNVFVnT1M0Mk9Ua3pNeUExTVM0
+/// MU1qQXhJRGt1TlRrMk5UTWdOVEV1TURJNE5pQTVMalV5T0V3ME9TNDFPRGc0SURrdU16RXdOVGxETkRndU5qVXhPQ0E1TGpFM016VXlJRFEzTGpReU9EZ2dPQzQyT1RNeUlEUTNMalF5T0RnZ05pNDVOamMwT0VNME55NDBNamc0SURVdU1qUXhOellnTkRndU5qSTROeUEwTGpNMk1qQTJJRFV3TGpZNE5Ua2dOQzR6TmpJd05rTTFNaTQzTkRNZ05DNHpOakl3TmlBMU15NDVNRGczSURVdU1qazVNRGNnTlRNdU9UQTROeUEyTGpnM05qVldOeTR4T0RRNVNEVXhMamM1TkRKV05pNDVNakU1T1VNMU1TNDNPVFF5SURZdU16Y3pNVFFnTlRFdU5EWXlPQ0EyTGpFME5UQTVJRFV3TGpZNE5Ua2dOaTR4TkRVd09VTTBPUzQ1TlRRMUlEWXVNVFExTURrZ05Ea3VOVGMzTmlBMkxq
+/// TTJNalVnTkRrdU5UYzNOaUEyTGpjNE5Ea3lRelE1TGpVM056WWdOeTR5TlRNME15QTBPUzQ0T1RjNElEY3VNelUyTWpNZ05UQXVNelUwTlNBM0xqUXlORGMyVERVeExqYzRNeUEzTGpZME1qRTNRelV5TGpjM056TWdOeTQzT1RBME5pQTFOQzR3TURBeklEZ3VNamN3TnpnZ05UUXVNREF3TXlBeE1DNHdNRGMzVERVekxqazVPVGNnTVRBdU1EQTRNMW9pSUdacGJHdzlJaU13UVRFeU5qUWlJR2xrUFNKV1pXTjBiM0lpSUM4K0RRb2dJRHd2Wno0TkNpQWdQR1JsWm5NK0RRb2dJQ0FnUEdOc2FYQlFZWFJvSUdsa1BTSmpiR2x3TUY4ME1EVTFYelF6T1RBaVBnMEtJQ0FnSUNBZ1BISmxZM1FnZUQwaU1DSWdlVDBpTUNJZ2QybGtkR2c5SWpVM0xqa3pNRGNpSUdobGFXZG9k
+/// RDBpTVRZaUlHWnBiR3c5SW5kb2FYUmxJaUIwY21GdWMyWnZjbTA5SW5SeVlXNXpiR0YwWlNnd0xqQTJPRFFzSURBdU5Ta2lJQzgrRFFvZ0lDQWdQQzlqYkdsd1VHRjBhRDROQ2lBZ1BDOWtaV1p6UGcwS1BDOXpkbWMrAcAXZXdCY0FISUFkQUJtQURFQVhBQmtBR1VBWmdCbUFEQUFld0JjQUdZQWJ3QnVBSFFBZEFCaUFHd0Fld0JjQUdZQU1BQWdBRU1BWVFCc0FHa0FZZ0J5QUdrQU93QjlBSHNBWEFCbUFERUFJQUJVQUdrQWJRQmxBSE1BSUFCT0FHVUFkd0FnQUZJQWJ3QnRBR0VBYmdBN0FIMEFld0JjQUdZQU1nQWdBRU1BWVFCdEFHSUFjZ0JwQUdFQUlBQk5BR0VBZEFCb0FEc0FmUUI3QUZ3QVpnQXpBQ0FBUVFCeUFHa0FZUUJzQURzQWZRQjlBSHNBWEFCakFHOEFi
+/// QUJ2QUhJQWRBQmlBR3dBSUFBN0FGd0FjZ0JsQUdRQU1BQmNBR2NBY2dCbEFHVUFiZ0F3QUZ3QVlnQnNBSFVBWlFBeUFEVUFOUUFnQURzQVhBQnlBR1VBWkFBd0FGd0Fad0J5QUdVQVpRQnVBREFBWEFCaUFHd0FkUUJsQURBQUlBQTdBSDBBZXdCY0FDb0FYQUJrQUdVQVpnQmpBR2dBY0FBZ0FGd0FaZ0F4QUZ3QVpnQnpBRElBTkFCOUFIc0FYQUFxQUZ3QVpBQmxBR1lBY0FCaEFIQUFJQUJjQUhjQWFRQmtBR01BZEFCc0FIQUFZUUJ5QUgwQWV3QmNBSE1BZEFCNUFHd0FaUUJ6QUdnQVpRQmxBSFFBSUFCN0FGd0FjUUJzQUZ3QVpnQXhBRndBWmdCekFESUFOQUFnQUU0QWJ3QnlBRzBBWVFCc0FEc0FmUUI3QUZ3QUtnQmNBR01BY3dBeEFGd0FaZ0F4QUZ3QVpnQnpBRElB
+/// TkFBZ0FFUUFaUUJtQUdFQWRRQnNBSFFBSUFCUUFHRUFjZ0JoQUdjQWNnQmhBSEFBYUFBZ0FFWUFid0J1QUhRQU93QjlBSHNBWEFBcUFGd0FZd0J6QURJQVhBQnpBR0lBWVFCekFHVUFaQUJ2QUc0QU1RQmNBR1lBTVFCY0FHWUFjd0F5QURRQUlBQk1BR2tBYmdCbEFDQUFUZ0IxQUcwQVlnQmxBSElBT3dCOUFIc0FYQUFxQUZ3QVl3QnpBRE1BWEFCbUFERUFYQUJtQUhNQU1nQTBBRndBZFFCc0FGd0FZd0JtQURFQUlBQklBSGtBY0FCbEFISUFiQUJwQUc0QWF3QTdBSDBBZXdCY0FDb0FYQUIwQUhNQU5BQmNBSFFBY3dCeUFHOEFkd0JrQUZ3QVpnQXhBRndBWmdCekFESUFOQUJjQUhFQWJBQmNBSFFBY3dCakFHVUFiQUJzQUhBQVlRQmtBR1FBWmdCc0FETUFYQUIwQUhN
+/// QVl3QmxBR3dBYkFCd0FHRUFaQUJrQUd3QU1RQXdBRGdBWEFCMEFITUFZd0JsQUd3QWJBQndBR0VBWkFCa0FHWUFZZ0F6QUZ3QWRBQnpBR01BWlFCc0FHd0FjQUJoQUdRQVpBQm1BSElBTXdCY0FIUUFjd0JqQUdVQWJBQnNBSEFBWVFCa0FHUUFjZ0F4QURBQU9BQmNBSFFBY3dCakFHVUFiQUJzQUhBQVlRQmtBR1FBWmdCMEFETUFYQUIwQUhNQWRnQmxBSElBZEFCaEFHd0FkQUJjQUdNQWJBQjBBSGdBYkFCeUFIUUFZZ0FnQUU0QWJ3QnlBRzBBWVFCc0FDQUFWQUJoQUdJQWJBQmxBRHNBZlFCN0FGd0FLZ0JjQUhRQWN3QTFBRndBZEFCekFISUFid0IzQUdRQVhBQnpBR0lBWVFCekFHVUFaQUJ2QUc0QU5BQmNBR1lBTVFCY0FHWUFjd0F5QURRQVhBQnhBR3dBWEFCMEFI
+/// SUFZZ0J5QUdRQWNnQjBBRndBWWdCeUFHUUFjZ0J6QUZ3QVlnQnlBR1FBY2dCM0FERUFNQUJjQUhRQWNnQmlBSElBWkFCeUFHd0FYQUJpQUhJQVpBQnlBSE1BWEFCaUFISUFaQUJ5QUhjQU1RQXdBRndBZEFCeUFHSUFjZ0JrQUhJQVlnQmNBR0lBY2dCa0FISUFjd0JjQUdJQWNnQmtBSElBZHdBeEFEQUFYQUIwQUhJQVlnQnlBR1FBY2dCeUFGd0FZZ0J5QUdRQWNnQnpBRndBWWdCeUFHUUFjZ0IzQURFQU1BQmNBSFFBY2dCaUFISUFaQUJ5QUdnQVhBQmlBSElBWkFCeUFITUFYQUJpQUhJQVpBQnlBSGNBTVFBd0FGd0FkQUJ5QUdJQWNnQmtBSElBZGdCY0FHSUFjZ0JrQUhJQWN3QmNBR0lBY2dCa0FISUFkd0F4QURBQVhBQjBBSE1BWXdCbEFHd0FiQUJ3QUdFQVpBQmtB
+/// R1lBYkFBekFGd0FkQUJ6QUdNQVpRQnNBR3dBY0FCaEFHUUFaQUJzQURFQU1BQTRBRndBZEFCekFHTUFaUUJzQUd3QWNBQmhBR1FBWkFCbUFISUFNd0JjQUhRQWN3QmpBR1VBYkFCc0FIQUFZUUJrQUdRQWNnQXhBREFBT0FCY0FIUUFjd0IyQUdVQWNnQjBBR0VBYkFCMEFGd0FZd0JzQUhRQWVBQnNBSElBZEFCaUFDQUFWQUJoQUdJQWJBQmxBQ0FBVXdCcEFHMEFjQUJzQUdVQUlBQXhBRHNBZlFCOUFIc0FYQUFxQUZ3QWJBQnBBSE1BZEFCdkFIWUFaUUJ5QUhJQWFRQmtBR1VBZEFCaEFHSUFiQUJsQUgwQWV3QmNBRzBBYlFCaEFIUUFhQUJRQUhJQVhBQnRBR0lBY2dCckFFSUFhUUJ1QURBQVhBQnRBR0lBY2dCckFFSUFhUUJ1QUZNQWRRQmlBREFBWEFCdEFHUUFaUUJt
+/// QUVvQVl3QXdBRndBYlFCcEFHNEFkQUJsQUhJQVV3QndBREFBWEFCdEFHa0FiZ0IwQUV3QWFRQnRBREVBWEFCdEFHa0FiZ0IwQUhJQVlRQlRBSEFBTUFCY0FHMEFiUUJoQUhRQWFBQkdBRzhBYmdCMEFESUFYQUJ0QUc0QVlRQnlBSGtBVEFCcEFHMEFNUUJjQUcwQWNBQnZBSE1BZEFCVEFIQUFNQUJjQUcwQWNBQnlBR1VBVXdCd0FEQUFYQUJ0QUhJQVRRQmhBSElBWndCcEFHNEFNQUJjQUcwQWN3QnRBR0VBYkFCc0FFWUFjZ0JoQUdNQU1BQmNBRzBBZHdCeUFHRUFjQUJKQUc0QVpBQmxBRzRBZEFBd0FGd0FiUUIzQUhJQVlRQndBRklBYVFCbkFHZ0FkQUF3QUgwQVhBQnVBRzhBZFFCcEFHTUFid0J0QUhBQVlRQjBBRndBYUFCMEFHMEFZUUIxQUhRQWN3QndBRndBY3dC
+/// d0FHd0FlUUIwQUhjQWJnQnBBRzRBWlFCY0FHRUFiQUJ1QUhRQVlnQnNBR2tBYmdCa0FGd0FaUUI0QUhBQWN3Qm9BSElBZEFCdUFGd0Fjd0J3QUd3QWRBQndBR2NBY0FCaEFISUFYQUJ1QUc4QVp3QnlBRzhBZHdCaEFIVUFkQUJ2QUdZQWFRQjBBRndBZFFCMEFHa0FiZ0JzQUZ3QWJnQnZBR0lBY2dCckFIY0FjZ0J3QUhRQVlnQnNBRndBWmdCMEFHNEFiQUI1QUhRQWR3QnVBR2tBYmdCbEFGd0FiZ0J2QUhRQVl3QjJBR0VBY3dCd0FGd0FaQUJ1QUhRQVlnQnNBRzRBY3dCaUFHUUFZZ0JjQUc0QVpRQjNBSFFBWWdCc0FITUFkQUI1QUhJQWRRQnNBSE1BWEFCbUFHOEFjZ0J0QUhNQWFBQmhBR1FBWlFCY0FIQUFZUUJ5QUdRQVhBQndBR3dBWVFCcEFHNEFYQUJ4QUd3QVhB
+/// QjNBR2tBWkFCakFIUUFiQUJ3QUdFQWNnQjdBRndBWmdBekFGd0FaZ0J6QURJQU1BQmNBR01BWmdBeUFDQUFjZ0JwQUdNQWFBQlVBR1VBZUFCMEFERUFmUUJjQUdZQU13QmNBR1lBY3dBeUFEQUFYQUJqQUdZQU1nQmNBSEFBWVFCeUFIMEE=</Resource>
+///   </Resources>
+/// </XRTypeInfo>
+namespace XtraReportSerialization {
+    
+    public class Report1 : DevExpress.XtraReports.UI.XtraReport {
+        private DevExpress.XtraReports.UI.TopMarginBand TopMargin1;
+        private DevExpress.XtraReports.UI.XRPictureBox pictureBox1;
+        private DevExpress.XtraReports.UI.XRLabel label3;
+        private DevExpress.XtraReports.UI.XRLine line1;
+        private DevExpress.XtraReports.UI.XRLabel label2;
+        private DevExpress.XtraReports.UI.DetailBand Detail1;
+        private DevExpress.XtraReports.UI.DetailReportBand ExecutiveSummary;
+        private DevExpress.XtraReports.UI.DetailBand Detail2;
+        private DevExpress.XtraReports.UI.XRSubreport ExecutiveSummarySection;
+        private DevExpress.XtraReports.Parameters.Parameter AgProdCreditMemo_CreditMemoId;
+        private DevExpress.XtraReports.Parameters.Parameter WfId;
+        private DevExpress.XtraReports.UI.DetailReportBand BorrowerStructure;
+        private DevExpress.XtraReports.UI.DetailBand Detail11;
+        private DevExpress.XtraReports.UI.XRSubreport BorrowerStructureSection;
+        private DevExpress.XtraReports.UI.DetailReportBand BorrowerBand;
+        private DevExpress.XtraReports.UI.DetailBand Detail3;
+        private DevExpress.XtraReports.UI.XRSubreport BorrowerSection;
+        private DevExpress.XtraReports.UI.DetailReportBand DetailReport2;
+        private DevExpress.XtraReports.UI.DetailBand Detail9;
+        private DevExpress.XtraReports.UI.DetailReportBand Industry;
+        private DevExpress.XtraReports.UI.DetailBand Detail4;
+        private DevExpress.XtraReports.UI.XRSubreport IndustrySection;
+        private DevExpress.XtraReports.UI.DetailReportBand EntityInformationBand;
+        private DevExpress.XtraReports.UI.DetailBand Detail5;
+        private DevExpress.XtraReports.UI.XRSubreport EntityInformation;
+        private DevExpress.XtraReports.UI.DetailReportBand LoanSummary;
+        private DevExpress.XtraReports.UI.DetailBand Detail12;
+        private DevExpress.XtraReports.UI.XRSubreport LoanSummarySection;
+        private DevExpress.XtraReports.UI.DetailReportBand DetailReport4;
+        private DevExpress.XtraReports.UI.GroupHeaderBand GroupHeader1;
+        private DevExpress.XtraReports.UI.XRLabel label4;
+        private DevExpress.XtraReports.UI.DetailBand Detail16;
+        private DevExpress.XtraReports.UI.XRLabel label5;
+        private DevExpress.XtraReports.UI.XRRichText richText1;
+        private DevExpress.XtraReports.UI.XRSubreport FinancialAnalysisSection;
+        private DevExpress.XtraReports.UI.DetailReportBand CollateralAnalysisBand;
+        private DevExpress.XtraReports.UI.DetailBand Detail6;
+        private DevExpress.XtraReports.UI.XRSubreport CollateralSection;
+        private DevExpress.XtraReports.UI.DetailReportBand DetailReport3;
+        private DevExpress.XtraReports.UI.DetailBand Detail14;
+        private DevExpress.XtraReports.UI.XRSubreport RiskRatingSection;
+        private DevExpress.XtraReports.UI.DetailReportBand Covenants;
+        private DevExpress.XtraReports.UI.DetailBand Detail13;
+        private DevExpress.XtraReports.UI.XRSubreport CovanantsSection;
+        private DevExpress.XtraReports.UI.DetailReportBand PolicyException;
+        private DevExpress.XtraReports.UI.DetailBand Detail15;
+        private DevExpress.XtraReports.UI.XRSubreport PolicyExceptionSection;
+        private DevExpress.XtraReports.UI.DetailReportBand MarketAnalysisBand;
+        private DevExpress.XtraReports.UI.DetailBand Detail7;
+        private DevExpress.XtraReports.UI.XRSubreport MarketAnalysisSection;
+        private DevExpress.XtraReports.UI.DetailReportBand DetailReport1;
+        private DevExpress.XtraReports.UI.DetailBand Detail8;
+        private DevExpress.XtraReports.UI.XRSubreport CommentsRecommendationSection;
+        private DevExpress.XtraReports.UI.DetailReportBand Appendix;
+        private DevExpress.XtraReports.UI.DetailBand Detail10;
+        private DevExpress.XtraReports.UI.XRSubreport CreditmemoAppendix;
+        private DevExpress.XtraReports.UI.GroupFooterBand GroupFooter1;
+        private DevExpress.XtraReports.UI.XRPdfContent PdfContentPlaceHolder;
+        private DevExpress.XtraReports.UI.BottomMarginBand BottomMargin1;
+        private DevExpress.XtraReports.UI.XRPageInfo pageInfo1;
+        private DevExpress.XtraReports.UI.XRLabel label1;
+        private DevExpress.DataAccess.ObjectBinding.ObjectDataSource AgProdCreditMemo1;
+        private System.Resources.ResourceManager _resources;
+        private string _resourceString;
+        public Report1() {
+            this._resourceString = DevExpress.XtraReports.Serialization.XRResourceManager.GetResourceFor("XtraReportSerialization.Report1");
+            this.InitializeComponent();
+        }
+        private System.Resources.ResourceManager resources {
+            get {
+                if (_resources == null) {
+                    this._resources = new DevExpress.XtraReports.Serialization.XRResourceManager(this._resourceString);
+                }
+                return this._resources;
+            }
+        }
+        private void InitializeComponent() {
+            DevExpress.DataAccess.ObjectBinding.ObjectConstructorInfo objectConstructorInfo1 = new DevExpress.DataAccess.ObjectBinding.ObjectConstructorInfo();
+            this.TopMargin1 = new DevExpress.XtraReports.UI.TopMarginBand();
+            this.Detail1 = new DevExpress.XtraReports.UI.DetailBand();
+            this.ExecutiveSummary = new DevExpress.XtraReports.UI.DetailReportBand();
+            this.BorrowerStructure = new DevExpress.XtraReports.UI.DetailReportBand();
+            this.BorrowerBand = new DevExpress.XtraReports.UI.DetailReportBand();
+            this.Industry = new DevExpress.XtraReports.UI.DetailReportBand();
+            this.EntityInformationBand = new DevExpress.XtraReports.UI.DetailReportBand();
+            this.LoanSummary = new DevExpress.XtraReports.UI.DetailReportBand();
+            this.DetailReport4 = new DevExpress.XtraReports.UI.DetailReportBand();
+            this.CollateralAnalysisBand = new DevExpress.XtraReports.UI.DetailReportBand();
+            this.DetailReport3 = new DevExpress.XtraReports.UI.DetailReportBand();
+            this.Covenants = new DevExpress.XtraReports.UI.DetailReportBand();
+            this.PolicyException = new DevExpress.XtraReports.UI.DetailReportBand();
+            this.MarketAnalysisBand = new DevExpress.XtraReports.UI.DetailReportBand();
+            this.DetailReport1 = new DevExpress.XtraReports.UI.DetailReportBand();
+            this.Appendix = new DevExpress.XtraReports.UI.DetailReportBand();
+            this.BottomMargin1 = new DevExpress.XtraReports.UI.BottomMarginBand();
+            this.pictureBox1 = new DevExpress.XtraReports.UI.XRPictureBox();
+            this.label3 = new DevExpress.XtraReports.UI.XRLabel();
+            this.line1 = new DevExpress.XtraReports.UI.XRLine();
+            this.label2 = new DevExpress.XtraReports.UI.XRLabel();
+            this.Detail2 = new DevExpress.XtraReports.UI.DetailBand();
+            this.ExecutiveSummarySection = new DevExpress.XtraReports.UI.XRSubreport();
+            this.Detail11 = new DevExpress.XtraReports.UI.DetailBand();
+            this.BorrowerStructureSection = new DevExpress.XtraReports.UI.XRSubreport();
+            this.Detail3 = new DevExpress.XtraReports.UI.DetailBand();
+            this.DetailReport2 = new DevExpress.XtraReports.UI.DetailReportBand();
+            this.BorrowerSection = new DevExpress.XtraReports.UI.XRSubreport();
+            this.Detail9 = new DevExpress.XtraReports.UI.DetailBand();
+            this.Detail4 = new DevExpress.XtraReports.UI.DetailBand();
+            this.IndustrySection = new DevExpress.XtraReports.UI.XRSubreport();
+            this.Detail5 = new DevExpress.XtraReports.UI.DetailBand();
+            this.EntityInformation = new DevExpress.XtraReports.UI.XRSubreport();
+            this.Detail12 = new DevExpress.XtraReports.UI.DetailBand();
+            this.LoanSummarySection = new DevExpress.XtraReports.UI.XRSubreport();
+            this.GroupHeader1 = new DevExpress.XtraReports.UI.GroupHeaderBand();
+            this.Detail16 = new DevExpress.XtraReports.UI.DetailBand();
+            this.label4 = new DevExpress.XtraReports.UI.XRLabel();
+            this.label5 = new DevExpress.XtraReports.UI.XRLabel();
+            this.richText1 = new DevExpress.XtraReports.UI.XRRichText();
+            this.FinancialAnalysisSection = new DevExpress.XtraReports.UI.XRSubreport();
+            this.Detail6 = new DevExpress.XtraReports.UI.DetailBand();
+            this.CollateralSection = new DevExpress.XtraReports.UI.XRSubreport();
+            this.Detail14 = new DevExpress.XtraReports.UI.DetailBand();
+            this.RiskRatingSection = new DevExpress.XtraReports.UI.XRSubreport();
+            this.Detail13 = new DevExpress.XtraReports.UI.DetailBand();
+            this.CovanantsSection = new DevExpress.XtraReports.UI.XRSubreport();
+            this.Detail15 = new DevExpress.XtraReports.UI.DetailBand();
+            this.PolicyExceptionSection = new DevExpress.XtraReports.UI.XRSubreport();
+            this.Detail7 = new DevExpress.XtraReports.UI.DetailBand();
+            this.MarketAnalysisSection = new DevExpress.XtraReports.UI.XRSubreport();
+            this.Detail8 = new DevExpress.XtraReports.UI.DetailBand();
+            this.CommentsRecommendationSection = new DevExpress.XtraReports.UI.XRSubreport();
+            this.Detail10 = new DevExpress.XtraReports.UI.DetailBand();
+            this.GroupFooter1 = new DevExpress.XtraReports.UI.GroupFooterBand();
+            this.CreditmemoAppendix = new DevExpress.XtraReports.UI.XRSubreport();
+            this.PdfContentPlaceHolder = new DevExpress.XtraReports.UI.XRPdfContent();
+            this.pageInfo1 = new DevExpress.XtraReports.UI.XRPageInfo();
+            this.label1 = new DevExpress.XtraReports.UI.XRLabel();
+            this.AgProdCreditMemo1 = new DevExpress.DataAccess.ObjectBinding.ObjectDataSource();
+            this.AgProdCreditMemo_CreditMemoId = new DevExpress.XtraReports.Parameters.Parameter();
+            this.WfId = new DevExpress.XtraReports.Parameters.Parameter();
+            ((System.ComponentModel.ISupportInitialize)(this.richText1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AgProdCreditMemo1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
+            // 
+            // TopMargin1
+            // 
+            this.TopMargin1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.pictureBox1,
+                        this.label3,
+                        this.line1,
+                        this.label2});
+            this.TopMargin1.Dpi = 96F;
+            this.TopMargin1.HeightF = 37F;
+            this.TopMargin1.Name = "TopMargin1";
+            this.TopMargin1.StylePriority.UseTextAlignment = false;
+            this.TopMargin1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // Detail1
+            // 
+            this.Detail1.Borders = DevExpress.XtraPrinting.BorderSide.None;
+            this.Detail1.Dpi = 96F;
+            this.Detail1.HeightF = 1F;
+            this.Detail1.Name = "Detail1";
+            this.Detail1.StylePriority.UseBorders = false;
+            // 
+            // ExecutiveSummary
+            // 
+            this.ExecutiveSummary.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.Detail2});
+            this.ExecutiveSummary.Dpi = 96F;
+            this.ExecutiveSummary.Level = 0;
+            this.ExecutiveSummary.Name = "ExecutiveSummary";
+            // 
+            // BorrowerStructure
+            // 
+            this.BorrowerStructure.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.Detail11});
+            this.BorrowerStructure.Dpi = 96F;
+            this.BorrowerStructure.Level = 1;
+            this.BorrowerStructure.Name = "BorrowerStructure";
+            // 
+            // BorrowerBand
+            // 
+            this.BorrowerBand.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.Detail3,
+                        this.DetailReport2});
+            this.BorrowerBand.Dpi = 96F;
+            this.BorrowerBand.Level = 2;
+            this.BorrowerBand.Name = "BorrowerBand";
+            // 
+            // Industry
+            // 
+            this.Industry.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.Detail4});
+            this.Industry.Dpi = 96F;
+            this.Industry.Level = 3;
+            this.Industry.Name = "Industry";
+            // 
+            // EntityInformationBand
+            // 
+            this.EntityInformationBand.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.Detail5});
+            this.EntityInformationBand.Dpi = 96F;
+            this.EntityInformationBand.Level = 4;
+            this.EntityInformationBand.Name = "EntityInformationBand";
+            // 
+            // LoanSummary
+            // 
+            this.LoanSummary.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.Detail12});
+            this.LoanSummary.Dpi = 96F;
+            this.LoanSummary.Level = 5;
+            this.LoanSummary.Name = "LoanSummary";
+            // 
+            // DetailReport4
+            // 
+            this.DetailReport4.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.GroupHeader1,
+                        this.Detail16});
+            this.DetailReport4.Dpi = 96F;
+            this.DetailReport4.Level = 6;
+            this.DetailReport4.Name = "DetailReport4";
+            // 
+            // CollateralAnalysisBand
+            // 
+            this.CollateralAnalysisBand.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.Detail6});
+            this.CollateralAnalysisBand.Dpi = 96F;
+            this.CollateralAnalysisBand.Level = 7;
+            this.CollateralAnalysisBand.Name = "CollateralAnalysisBand";
+            // 
+            // DetailReport3
+            // 
+            this.DetailReport3.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.Detail14});
+            this.DetailReport3.Dpi = 96F;
+            this.DetailReport3.Level = 8;
+            this.DetailReport3.Name = "DetailReport3";
+            // 
+            // Covenants
+            // 
+            this.Covenants.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.Detail13});
+            this.Covenants.Dpi = 96F;
+            this.Covenants.Level = 9;
+            this.Covenants.Name = "Covenants";
+            // 
+            // PolicyException
+            // 
+            this.PolicyException.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.Detail15});
+            this.PolicyException.Dpi = 96F;
+            this.PolicyException.Level = 10;
+            this.PolicyException.Name = "PolicyException";
+            // 
+            // MarketAnalysisBand
+            // 
+            this.MarketAnalysisBand.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.Detail7});
+            this.MarketAnalysisBand.Dpi = 96F;
+            this.MarketAnalysisBand.Level = 11;
+            this.MarketAnalysisBand.Name = "MarketAnalysisBand";
+            // 
+            // DetailReport1
+            // 
+            this.DetailReport1.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.Detail8});
+            this.DetailReport1.Dpi = 96F;
+            this.DetailReport1.Level = 12;
+            this.DetailReport1.Name = "DetailReport1";
+            // 
+            // Appendix
+            // 
+            this.Appendix.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.Detail10,
+                        this.GroupFooter1});
+            this.Appendix.Dpi = 96F;
+            this.Appendix.Level = 13;
+            this.Appendix.Name = "Appendix";
+            // 
+            // BottomMargin1
+            // 
+            this.BottomMargin1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.pageInfo1,
+                        this.label1});
+            this.BottomMargin1.Dpi = 96F;
+            this.BottomMargin1.Font = new DevExpress.Drawing.DXFont("Arial", 10F, DevExpress.Drawing.DXFontStyle.Bold, DevExpress.Drawing.DXGraphicsUnit.Pixel);
+            this.BottomMargin1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(117)))), ((int)(((byte)(117)))));
+            this.BottomMargin1.HeightF = 27F;
+            this.BottomMargin1.Name = "BottomMargin1";
+            this.BottomMargin1.StylePriority.UseFont = false;
+            this.BottomMargin1.StylePriority.UseForeColor = false;
+            this.BottomMargin1.StylePriority.UseTextAlignment = false;
+            this.BottomMargin1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dpi = 96F;
+            this.pictureBox1.ImageSource = new DevExpress.XtraPrinting.Drawing.ImageSource("svg", resources.GetString("pictureBox1.ImageSource"));
+            this.pictureBox1.LocationFloat = new DevExpress.Utils.PointFloat(685.4F, 14F);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 96F);
+            this.pictureBox1.SizeF = new System.Drawing.SizeF(58F, 16F);
+            this.pictureBox1.StylePriority.UsePadding = false;
+            // 
+            // label3
+            // 
+            this.label3.Dpi = 96F;
+            this.label3.Font = new DevExpress.Drawing.DXFont("Arial", 10F, DevExpress.Drawing.DXFontStyle.Bold, DevExpress.Drawing.DXGraphicsUnit.Pixel);
+            this.label3.LocationFloat = new DevExpress.Utils.PointFloat(0F, 20F);
+            this.label3.Multiline = true;
+            this.label3.Name = "label3";
+            this.label3.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 96F);
+            this.label3.SizeF = new System.Drawing.SizeF(96F, 11F);
+            this.label3.StylePriority.UseFont = false;
+            this.label3.StylePriority.UsePadding = false;
+            this.label3.Text = "MEMORANDUM";
+            // 
+            // line1
+            // 
+            this.line1.BorderWidth = 1F;
+            this.line1.Dpi = 96F;
+            this.line1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(117)))), ((int)(((byte)(117)))));
+            this.line1.LocationFloat = new DevExpress.Utils.PointFloat(0F, 31F);
+            this.line1.Name = "line1";
+            this.line1.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 96F);
+            this.line1.SizeF = new System.Drawing.SizeF(743.4F, 4F);
+            this.line1.StylePriority.UseBorderColor = false;
+            this.line1.StylePriority.UseBorderWidth = false;
+            this.line1.StylePriority.UseForeColor = false;
+            this.line1.StylePriority.UsePadding = false;
+            // 
+            // label2
+            // 
+            this.label2.BorderWidth = 0.25F;
+            this.label2.Dpi = 96F;
+            this.label2.Font = new DevExpress.Drawing.DXFont("Arial", 8F, DevExpress.Drawing.DXFontStyle.Bold, DevExpress.Drawing.DXGraphicsUnit.Pixel);
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(18)))), ((int)(((byte)(100)))));
+            this.label2.LocationFloat = new DevExpress.Utils.PointFloat(0F, 9F);
+            this.label2.Multiline = true;
+            this.label2.Name = "label2";
+            this.label2.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 96F);
+            this.label2.SizeF = new System.Drawing.SizeF(76F, 9F);
+            this.label2.StylePriority.UseBorderWidth = false;
+            this.label2.StylePriority.UseFont = false;
+            this.label2.StylePriority.UseForeColor = false;
+            this.label2.StylePriority.UsePadding = false;
+            this.label2.Text = "CREDIT ";
+            // 
+            // Detail2
+            // 
+            this.Detail2.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.ExecutiveSummarySection});
+            this.Detail2.Dpi = 96F;
+            this.Detail2.HeightF = 28.725F;
+            this.Detail2.Name = "Detail2";
+            // 
+            // ExecutiveSummarySection
+            // 
+            this.ExecutiveSummarySection.Dpi = 96F;
+            this.ExecutiveSummarySection.LocationFloat = new DevExpress.Utils.PointFloat(0F, 2F);
+            this.ExecutiveSummarySection.Name = "ExecutiveSummarySection";
+            this.ExecutiveSummarySection.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("AgProdCreditMemo_CreditMemoId", this.AgProdCreditMemo_CreditMemoId));
+            this.ExecutiveSummarySection.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("WfId", this.WfId));
+            this.ExecutiveSummarySection.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("CollateralId", null, "CollateralId"));
+            this.ExecutiveSummarySection.ReportSourceUrl = "00c21584-445e-4876-82b0-fd0a168145ba";
+            this.ExecutiveSummarySection.SizeF = new System.Drawing.SizeF(743.4F, 20F);
+            // 
+            // Detail11
+            // 
+            this.Detail11.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.BorrowerStructureSection});
+            this.Detail11.Dpi = 96F;
+            this.Detail11.HeightF = 29F;
+            this.Detail11.Name = "Detail11";
+            // 
+            // BorrowerStructureSection
+            // 
+            this.BorrowerStructureSection.Dpi = 96F;
+            this.BorrowerStructureSection.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.BorrowerStructureSection.Name = "BorrowerStructureSection";
+            this.BorrowerStructureSection.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("AgProdCreditMemo_CreditMemoId", this.AgProdCreditMemo_CreditMemoId));
+            this.BorrowerStructureSection.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("WfId", this.WfId));
+            this.BorrowerStructureSection.ReportSourceUrl = "7855ff23-c32a-42a4-9b59-25ea1df9f2be";
+            this.BorrowerStructureSection.SizeF = new System.Drawing.SizeF(744F, 20F);
+            // 
+            // Detail3
+            // 
+            this.Detail3.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.BorrowerSection});
+            this.Detail3.Dpi = 96F;
+            this.Detail3.HeightF = 30F;
+            this.Detail3.Name = "Detail3";
+            // 
+            // DetailReport2
+            // 
+            this.DetailReport2.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.Detail9});
+            this.DetailReport2.Dpi = 96F;
+            this.DetailReport2.Level = 0;
+            this.DetailReport2.Name = "DetailReport2";
+            // 
+            // BorrowerSection
+            // 
+            this.BorrowerSection.Dpi = 96F;
+            this.BorrowerSection.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.BorrowerSection.Name = "BorrowerSection";
+            this.BorrowerSection.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("AgProdCreditMemo_CreditMemoId", this.AgProdCreditMemo_CreditMemoId));
+            this.BorrowerSection.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("WfId", this.WfId));
+            this.BorrowerSection.ReportSourceUrl = "3f5fd98b-5506-4e3a-ad40-95c6e7434870";
+            this.BorrowerSection.SizeF = new System.Drawing.SizeF(744F, 20F);
+            // 
+            // Detail9
+            // 
+            this.Detail9.Dpi = 96F;
+            this.Detail9.HeightF = 1F;
+            this.Detail9.Name = "Detail9";
+            // 
+            // Detail4
+            // 
+            this.Detail4.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.IndustrySection});
+            this.Detail4.Dpi = 96F;
+            this.Detail4.HeightF = 32F;
+            this.Detail4.Name = "Detail4";
+            // 
+            // IndustrySection
+            // 
+            this.IndustrySection.Dpi = 96F;
+            this.IndustrySection.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.IndustrySection.Name = "IndustrySection";
+            this.IndustrySection.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("AgProdCreditMemo_CreditMemoId", this.AgProdCreditMemo_CreditMemoId));
+            this.IndustrySection.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("WfId", this.WfId));
+            this.IndustrySection.ReportSourceUrl = "907bf191-192b-4029-9218-cb88f864b7ef";
+            this.IndustrySection.SizeF = new System.Drawing.SizeF(744F, 20F);
+            // 
+            // Detail5
+            // 
+            this.Detail5.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.EntityInformation});
+            this.Detail5.Dpi = 96F;
+            this.Detail5.HeightF = 29F;
+            this.Detail5.Name = "Detail5";
+            // 
+            // EntityInformation
+            // 
+            this.EntityInformation.Dpi = 96F;
+            this.EntityInformation.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.EntityInformation.Name = "EntityInformation";
+            this.EntityInformation.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("AgProdCreditMemo_CreditMemoId", this.AgProdCreditMemo_CreditMemoId));
+            this.EntityInformation.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("WfId", this.WfId));
+            this.EntityInformation.ReportSourceUrl = "c54eda82-4342-452a-b048-44e820410a08";
+            this.EntityInformation.SizeF = new System.Drawing.SizeF(744F, 20F);
+            // 
+            // Detail12
+            // 
+            this.Detail12.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.LoanSummarySection});
+            this.Detail12.Dpi = 96F;
+            this.Detail12.HeightF = 35F;
+            this.Detail12.Name = "Detail12";
+            // 
+            // LoanSummarySection
+            // 
+            this.LoanSummarySection.Dpi = 96F;
+            this.LoanSummarySection.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.LoanSummarySection.Name = "LoanSummarySection";
+            this.LoanSummarySection.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("AgProdCreditMemo_CreditMemoId", this.AgProdCreditMemo_CreditMemoId));
+            this.LoanSummarySection.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("WfId", this.WfId));
+            this.LoanSummarySection.ReportSourceUrl = "fa26792d-c14c-4939-bbcf-163176fe7fbe";
+            this.LoanSummarySection.SizeF = new System.Drawing.SizeF(744F, 20F);
+            // 
+            // GroupHeader1
+            // 
+            this.GroupHeader1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.label4});
+            this.GroupHeader1.Dpi = 96F;
+            this.GroupHeader1.HeightF = 24F;
+            this.GroupHeader1.Name = "GroupHeader1";
+            // 
+            // Detail16
+            // 
+            this.Detail16.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.label5,
+                        this.richText1,
+                        this.FinancialAnalysisSection});
+            this.Detail16.Dpi = 96F;
+            this.Detail16.HeightF = 74F;
+            this.Detail16.Name = "Detail16";
+            // 
+            // label4
+            // 
+            this.label4.Dpi = 96F;
+            this.label4.Font = new DevExpress.Drawing.DXFont("Arial", 20F, DevExpress.Drawing.DXFontStyle.Regular, DevExpress.Drawing.DXGraphicsUnit.Pixel);
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(40)))), ((int)(((byte)(160)))));
+            this.label4.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.label4.Multiline = true;
+            this.label4.Name = "label4";
+            this.label4.Padding = new DevExpress.XtraPrinting.PaddingInfo(1, 1, 0, 0, 96F);
+            this.label4.Scripts.OnAfterPrint = "label4_AfterPrint";
+            this.label4.SizeF = new System.Drawing.SizeF(239F, 22.08F);
+            this.label4.StylePriority.UseFont = false;
+            this.label4.StylePriority.UseForeColor = false;
+            this.label4.Text = "Financial Analysis Note";
+            // 
+            // label5
+            // 
+            this.label5.CanGrow = false;
+            this.label5.CanPublish = false;
+            this.label5.Dpi = 96F;
+            this.label5.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+                        new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[AgProdCreditMemoFinancial.FinancialAnalysisNote]")});
+            this.label5.LocationFloat = new DevExpress.Utils.PointFloat(254F, 1.919999F);
+            this.label5.Name = "label5";
+            this.label5.Padding = new DevExpress.XtraPrinting.PaddingInfo(1, 1, 0, 0, 96F);
+            this.label5.SizeF = new System.Drawing.SizeF(224F, 4F);
+            this.label5.Visible = false;
+            // 
+            // richText1
+            // 
+            this.richText1.Dpi = 96F;
+            this.richText1.KeepTogether = true;
+            this.richText1.LocationFloat = new DevExpress.Utils.PointFloat(0F, 7F);
+            this.richText1.Name = "richText1";
+            this.richText1.Padding = new DevExpress.XtraPrinting.PaddingInfo(1, 1, 0, 0, 96F);
+            this.richText1.Scripts.OnBeforePrint = "richText1_BeforePrint";
+            this.richText1.SerializableRtfString = resources.GetString("richText1.SerializableRtfString");
+            this.richText1.SizeF = new System.Drawing.SizeF(744F, 22.08F);
+            // 
+            // FinancialAnalysisSection
+            // 
+            this.FinancialAnalysisSection.Dpi = 96F;
+            this.FinancialAnalysisSection.LocationFloat = new DevExpress.Utils.PointFloat(0F, 42F);
+            this.FinancialAnalysisSection.Name = "FinancialAnalysisSection";
+            this.FinancialAnalysisSection.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("WfId", this.WfId));
+            this.FinancialAnalysisSection.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("AgProdCreditMemo_CreditMemoId", this.AgProdCreditMemo_CreditMemoId));
+            this.FinancialAnalysisSection.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("AgProdCreditMemo_EntityId", null, "EntityId"));
+            this.FinancialAnalysisSection.ReportSourceUrl = "8d5fb496-f9f6-4758-8843-3b1122257985";
+            this.FinancialAnalysisSection.SizeF = new System.Drawing.SizeF(744F, 22.08F);
+            // 
+            // Detail6
+            // 
+            this.Detail6.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.CollateralSection});
+            this.Detail6.Dpi = 96F;
+            this.Detail6.HeightF = 31F;
+            this.Detail6.Name = "Detail6";
+            // 
+            // CollateralSection
+            // 
+            this.CollateralSection.Dpi = 96F;
+            this.CollateralSection.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.CollateralSection.Name = "CollateralSection";
+            this.CollateralSection.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("AgProdCreditMemo_CreditMemoId", this.AgProdCreditMemo_CreditMemoId));
+            this.CollateralSection.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("WfId", this.WfId));
+            this.CollateralSection.ReportSourceUrl = "ce7b88db-c7cb-4219-b94d-314063252eb3";
+            this.CollateralSection.SizeF = new System.Drawing.SizeF(744F, 20F);
+            // 
+            // Detail14
+            // 
+            this.Detail14.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.RiskRatingSection});
+            this.Detail14.Dpi = 96F;
+            this.Detail14.HeightF = 29F;
+            this.Detail14.Name = "Detail14";
+            // 
+            // RiskRatingSection
+            // 
+            this.RiskRatingSection.Dpi = 96F;
+            this.RiskRatingSection.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.RiskRatingSection.Name = "RiskRatingSection";
+            this.RiskRatingSection.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("CollateralId", null, "CollateralId"));
+            this.RiskRatingSection.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("WfId", this.WfId));
+            this.RiskRatingSection.ReportSourceUrl = "e4b84ac6-d923-43e1-bfe3-7efeaf3824f3";
+            this.RiskRatingSection.SizeF = new System.Drawing.SizeF(744F, 20F);
+            // 
+            // Detail13
+            // 
+            this.Detail13.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.CovanantsSection});
+            this.Detail13.Dpi = 96F;
+            this.Detail13.HeightF = 26F;
+            this.Detail13.Name = "Detail13";
+            // 
+            // CovanantsSection
+            // 
+            this.CovanantsSection.Dpi = 96F;
+            this.CovanantsSection.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.CovanantsSection.Name = "CovanantsSection";
+            this.CovanantsSection.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("AgProdCreditMemo_CreditMemoId", this.AgProdCreditMemo_CreditMemoId));
+            this.CovanantsSection.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("WfId", this.WfId));
+            this.CovanantsSection.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("AgProdCreditMemo_EntityId", null, "EntityId"));
+            this.CovanantsSection.ReportSourceUrl = "0face0b2-dd4d-44c6-ae0e-3a386f5c9d27";
+            this.CovanantsSection.SizeF = new System.Drawing.SizeF(744F, 20F);
+            // 
+            // Detail15
+            // 
+            this.Detail15.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.PolicyExceptionSection});
+            this.Detail15.Dpi = 96F;
+            this.Detail15.HeightF = 34F;
+            this.Detail15.Name = "Detail15";
+            // 
+            // PolicyExceptionSection
+            // 
+            this.PolicyExceptionSection.Dpi = 96F;
+            this.PolicyExceptionSection.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.PolicyExceptionSection.Name = "PolicyExceptionSection";
+            this.PolicyExceptionSection.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("AgProdCreditMemo_CreditMemoId", this.AgProdCreditMemo_CreditMemoId));
+            this.PolicyExceptionSection.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("WfId", this.WfId));
+            this.PolicyExceptionSection.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("DealId", null, "DealId"));
+            this.PolicyExceptionSection.ReportSourceUrl = "9914f06d-c9de-47e0-bbf9-34ca03173142";
+            this.PolicyExceptionSection.SizeF = new System.Drawing.SizeF(744F, 20F);
+            // 
+            // Detail7
+            // 
+            this.Detail7.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.MarketAnalysisSection});
+            this.Detail7.Dpi = 96F;
+            this.Detail7.HeightF = 34F;
+            this.Detail7.Name = "Detail7";
+            // 
+            // MarketAnalysisSection
+            // 
+            this.MarketAnalysisSection.Dpi = 96F;
+            this.MarketAnalysisSection.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.MarketAnalysisSection.Name = "MarketAnalysisSection";
+            this.MarketAnalysisSection.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("AgProdCreditMemo_CreditMemoId", this.AgProdCreditMemo_CreditMemoId));
+            this.MarketAnalysisSection.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("WfId", this.WfId));
+            this.MarketAnalysisSection.ReportSourceUrl = "a35405d0-bd40-4c4d-a467-5bbd84c55483";
+            this.MarketAnalysisSection.SizeF = new System.Drawing.SizeF(744F, 20F);
+            // 
+            // Detail8
+            // 
+            this.Detail8.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.CommentsRecommendationSection});
+            this.Detail8.Dpi = 96F;
+            this.Detail8.HeightF = 31F;
+            this.Detail8.Name = "Detail8";
+            // 
+            // CommentsRecommendationSection
+            // 
+            this.CommentsRecommendationSection.Dpi = 96F;
+            this.CommentsRecommendationSection.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.CommentsRecommendationSection.Name = "CommentsRecommendationSection";
+            this.CommentsRecommendationSection.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("AgProdCreditMemo_CreditMemoId", this.AgProdCreditMemo_CreditMemoId));
+            this.CommentsRecommendationSection.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("WfId", this.WfId));
+            this.CommentsRecommendationSection.ReportSourceUrl = "99ed2b71-85e1-462a-828b-448f19e37960";
+            this.CommentsRecommendationSection.SizeF = new System.Drawing.SizeF(744F, 20F);
+            // 
+            // Detail10
+            // 
+            this.Detail10.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.CreditmemoAppendix});
+            this.Detail10.Dpi = 96F;
+            this.Detail10.HeightF = 31F;
+            this.Detail10.Name = "Detail10";
+            // 
+            // GroupFooter1
+            // 
+            this.GroupFooter1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
+                        this.PdfContentPlaceHolder});
+            this.GroupFooter1.Dpi = 96F;
+            this.GroupFooter1.HeightF = 25F;
+            this.GroupFooter1.Name = "GroupFooter1";
+            // 
+            // CreditmemoAppendix
+            // 
+            this.CreditmemoAppendix.Dpi = 96F;
+            this.CreditmemoAppendix.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.CreditmemoAppendix.Name = "CreditmemoAppendix";
+            this.CreditmemoAppendix.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("AgProdCreditMemo_CreditMemoId", this.AgProdCreditMemo_CreditMemoId));
+            this.CreditmemoAppendix.ParameterBindings.Add(new DevExpress.XtraReports.UI.ParameterBinding("WfId", this.WfId));
+            this.CreditmemoAppendix.ReportSourceUrl = "130f8580-355e-42f2-a6af-9f76e682f175";
+            this.CreditmemoAppendix.SizeF = new System.Drawing.SizeF(744F, 20F);
+            // 
+            // PdfContentPlaceHolder
+            // 
+            this.PdfContentPlaceHolder.Dpi = 96F;
+            this.PdfContentPlaceHolder.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
+            this.PdfContentPlaceHolder.Name = "PdfContentPlaceHolder";
+            this.PdfContentPlaceHolder.SizeF = new System.Drawing.SizeF(744F, 20F);
+            // 
+            // pageInfo1
+            // 
+            this.pageInfo1.Dpi = 96F;
+            this.pageInfo1.Font = new DevExpress.Drawing.DXFont("Arial", 10F, DevExpress.Drawing.DXFontStyle.Regular, DevExpress.Drawing.DXGraphicsUnit.Pixel);
+            this.pageInfo1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(117)))), ((int)(((byte)(117)))));
+            this.pageInfo1.LocationFloat = new DevExpress.Utils.PointFloat(650.406F, 6F);
+            this.pageInfo1.Name = "pageInfo1";
+            this.pageInfo1.Padding = new DevExpress.XtraPrinting.PaddingInfo(1, 1, 0, 0, 96F);
+            this.pageInfo1.SizeF = new System.Drawing.SizeF(93F, 15F);
+            this.pageInfo1.StylePriority.UseFont = false;
+            this.pageInfo1.StylePriority.UseForeColor = false;
+            this.pageInfo1.TextFormatString = "Page {0} of {1} ";
+            // 
+            // label1
+            // 
+            this.label1.Dpi = 96F;
+            this.label1.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
+                        new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "\'Printed on \' + FormatString(\'{0:MM/dd/yyyy}\', UtcNow()) + \'\' ")});
+            this.label1.Font = new DevExpress.Drawing.DXFont("Arial", 10F, DevExpress.Drawing.DXFontStyle.Regular, DevExpress.Drawing.DXGraphicsUnit.Pixel);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(117)))), ((int)(((byte)(117)))));
+            this.label1.LocationFloat = new DevExpress.Utils.PointFloat(0F, 6F);
+            this.label1.Multiline = true;
+            this.label1.Name = "label1";
+            this.label1.Padding = new DevExpress.XtraPrinting.PaddingInfo(1, 1, 0, 0, 96F);
+            this.label1.SizeF = new System.Drawing.SizeF(432.519F, 15F);
+            this.label1.StylePriority.UseFont = false;
+            this.label1.StylePriority.UseForeColor = false;
+            this.label1.StylePriority.UseTextAlignment = false;
+            this.label1.Text = "label1";
+            this.label1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
+            // 
+            // AgProdCreditMemo1
+            // 
+            this.AgProdCreditMemo1.Constructor = objectConstructorInfo1;
+            this.AgProdCreditMemo1.DataMember = "GetData";
+            this.AgProdCreditMemo1.DataSource = typeof(Moodys.ERS.RO.Domain.Reporting.AgProdCreditMemo);
+            this.AgProdCreditMemo1.Name = "AgProdCreditMemo1";
+            // 
+            // AgProdCreditMemo_CreditMemoId
+            // 
+            this.AgProdCreditMemo_CreditMemoId.Description = "AgProdCreditMemo_CreditMemoId";
+            this.AgProdCreditMemo_CreditMemoId.Name = "AgProdCreditMemo_CreditMemoId";
+            this.AgProdCreditMemo_CreditMemoId.ValueInfo = "00000000-0000-0000-0000-000000000000";
+            // 
+            // WfId
+            // 
+            this.WfId.Description = "WfId";
+            this.WfId.Name = "WfId";
+            this.WfId.ValueInfo = "00000000-0000-0000-0000-000000000000";
+            // 
+            // Report1
+            // 
+            this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
+                        this.TopMargin1,
+                        this.Detail1,
+                        this.ExecutiveSummary,
+                        this.BorrowerStructure,
+                        this.BorrowerBand,
+                        this.Industry,
+                        this.EntityInformationBand,
+                        this.LoanSummary,
+                        this.DetailReport4,
+                        this.CollateralAnalysisBand,
+                        this.DetailReport3,
+                        this.Covenants,
+                        this.PolicyException,
+                        this.MarketAnalysisBand,
+                        this.DetailReport1,
+                        this.Appendix,
+                        this.BottomMargin1});
+            this.ComponentStorage.AddRange(new System.ComponentModel.IComponent[] {
+                        this.AgProdCreditMemo1});
+            this.DataSource = this.AgProdCreditMemo1;
+            this.Dpi = 96F;
+            this.Extensions.Add("DataSerializationExtension", "DevExpress.XtraReports.Web.ReportDesigner.DefaultDataSerializer");
+            this.Font = new DevExpress.Drawing.DXFont("Arial", 10F, DevExpress.Drawing.DXFontStyle.Regular, DevExpress.Drawing.DXGraphicsUnit.Pixel);
+            this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(18)))), ((int)(((byte)(100)))));
+            this.Margins = new DevExpress.Drawing.DXMargins(36F, 36F, 37F, 27F);
+            this.Name = "Report1";
+            this.PageHeight = 1056;
+            this.PageWidth = 816;
+            this.ParameterPanelLayoutItems.AddRange(new DevExpress.XtraReports.Parameters.ParameterPanelLayoutItem[] {
+                        new DevExpress.XtraReports.Parameters.ParameterLayoutItem(this.AgProdCreditMemo_CreditMemoId, DevExpress.XtraReports.Parameters.Orientation.Horizontal),
+                        new DevExpress.XtraReports.Parameters.ParameterLayoutItem(this.WfId, DevExpress.XtraReports.Parameters.Orientation.Horizontal)});
+            this.Parameters.AddRange(new DevExpress.XtraReports.Parameters.Parameter[] {
+                        this.AgProdCreditMemo_CreditMemoId,
+                        this.WfId});
+            this.ReportUnit = DevExpress.XtraReports.UI.ReportUnit.Pixels;
+            this.Scripts.OnBeforePrint = "Report1_BeforePrint";
+            this.ScriptsSource = resources.GetString("$this.ScriptsSource");
+            this.SnapGridSize = 12F;
+            this.Version = "24.2";
+            ((System.ComponentModel.ISupportInitialize)(this.richText1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.AgProdCreditMemo1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
+        }
+    }
+}

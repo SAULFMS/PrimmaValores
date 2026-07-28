@@ -1,6 +1,27 @@
 [
   {
     "Type": "COVENANTTEMPLATEDEFAULTVALUES",
+    "IdInt": 104526806,
+    "Id": "800",
+    "TemplateId": "800",
+    "CovenantTitle": "DSCR (PV)",
+    "Description": null,
+    "InternalTracking": null,
+    "Frequency": null,
+    "ClientFilingTurnaround": null,
+    "ClientFilingTurnaroundUnit": null,
+    "AutoTesting": true,
+    "TestingThresholdOperator": null,
+    "TestingThresholdValue": null,
+    "TestingThresholdOperator2": null,
+    "TestingThresholdValue2": null,
+    "Inapplicable_": [],
+    "IsDeleted_": false,
+    "StatusId_": 1,
+    "t_": "CovenantTemplateDefaultValues"
+  },
+  {
+    "Type": "COVENANTTEMPLATEDEFAULTVALUES",
     "IdInt": 329696176,
     "Id": "998",
     "TemplateId": "998",
